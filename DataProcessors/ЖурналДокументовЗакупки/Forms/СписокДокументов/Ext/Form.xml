@@ -54,7 +54,6 @@
 			</Title>
 			<GroupVerticalAlign>Center</GroupVerticalAlign>
 			<Group>Horizontal</Group>
-			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаОбщиеОтборыРасширеннаяПодсказка" id="339"/>
@@ -148,7 +147,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Manager</v8:content>
+							<v8:content>Employee</v8:content>
 						</v8:item>
 					</ToolTip>
 					<Width>20</Width>
@@ -164,7 +163,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Manager</v8:content>
+							<v8:content>Employee</v8:content>
 						</v8:item>
 					</InputHint>
 					<ContextMenu name="МенеджерКонтекстноеМеню" id="77"/>
@@ -197,7 +196,6 @@
 					<v8:content>User settings group</v8:content>
 				</v8:item>
 			</Title>
-			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаПользовательскихНастроекРасширеннаяПодсказка" id="876"/>
@@ -217,7 +215,7 @@
 			<DataPath>СписокДокументыЗакупки</DataPath>
 			<RowPictureDataPath>~СписокДокументыЗакупки.НестандартнаяКартинка</RowPictureDataPath>
 			<RowsPicture>
-				<xr:Ref>0:07d59b7a-1185-487d-b667-6e487b37dbac</xr:Ref>
+				<xr:Ref>CommonPicture.СостоянияДокумента</xr:Ref>
 				<xr:LoadTransparent>false</xr:LoadTransparent>
 			</RowsPicture>
 			<Title>
@@ -444,6 +442,31 @@
 								<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 								<ExtendedTooltip name="СписокИзменитьРасширеннаяПодсказка" id="489"/>
 							</Button>
+							<ButtonGroup name="СписокГруппаЗагрузитьИзСкана" id="921">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Список группа загрузить из скана</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>List group import from scanned copy</v8:content>
+									</v8:item>
+								</Title>
+								<ExtendedTooltip name="СписокГруппаЗагрузитьИзСканаРасширеннаяПодсказка" id="924"/>
+								<ChildItems>
+									<Button name="СписокДокументыЗакупкиЗагрузитьИзСканаФото" id="923">
+										<Type>CommandBarButton</Type>
+										<Representation>Picture</Representation>
+										<CommandName>0</CommandName>
+										<Picture>
+											<xr:Ref>CommonPicture.ЗагрузитьДокументыИзСкановФото</xr:Ref>
+											<xr:LoadTransparent>false</xr:LoadTransparent>
+										</Picture>
+										<ExtendedTooltip name="СписокДокументыЗакупкиЗагрузитьИзСканаФотоРасширеннаяПодсказка" id="920"/>
+									</Button>
+								</ChildItems>
+							</ButtonGroup>
 							<Button name="СписокУстановитьПометкуУдаления" id="490">
 								<Type>CommandBarButton</Type>
 								<Representation>Picture</Representation>
@@ -606,7 +629,7 @@
 							</v8:item>
 						</Title>
 						<Picture>
-							<xr:Ref>0:4eeb4604-6b1d-444c-b497-332247567af8</xr:Ref>
+							<xr:Ref>CommonPicture.ЗаполнитьПоШаблону</xr:Ref>
 							<xr:LoadTransparent>false</xr:LoadTransparent>
 						</Picture>
 						<Representation>Picture</Representation>
@@ -624,7 +647,7 @@
 							</v8:item>
 						</Title>
 						<Picture>
-							<xr:Ref>0:afbc6c91-d280-4aa1-bb4a-fe6b1cf82004</xr:Ref>
+							<xr:Ref>CommonPicture.Отчеты</xr:Ref>
 							<xr:LoadTransparent>false</xr:LoadTransparent>
 						</Picture>
 						<Representation>Picture</Representation>
@@ -759,31 +782,26 @@
 							<Button name="СписокДокументыЗакупкиОбщаяКомандаОтчетыОбъекта" id="813">
 								<Type>CommandBarButton</Type>
 								<CommandName>0</CommandName>
-								<DataPath>~Items.СписокДокументыЗакупки.CurrentData.Ссылка</DataPath>
 								<ExtendedTooltip name="СписокДокументыЗакупкиОбщаяКомандаОтчетыОбъектаРасширеннаяПодсказка" id="814"/>
 							</Button>
 							<Button name="СписокДокументыЗакупкиОбщаяКомандаДополнительныеСведенияКоманднаяПанель" id="811">
 								<Type>CommandBarButton</Type>
 								<CommandName>0</CommandName>
-								<DataPath>~Items.СписокДокументыЗакупки.CurrentData.Ссылка</DataPath>
 								<ExtendedTooltip name="СписокДокументыЗакупкиОбщаяКомандаДополнительныеСведенияКоманднаяПанельРасширеннаяПодсказка" id="812"/>
 							</Button>
 							<Button name="ФормаОбщаяКомандаЗаполнениеОбъекта" id="815">
 								<Type>CommandBarButton</Type>
 								<CommandName>0</CommandName>
-								<DataPath>~Items.СписокДокументыЗакупки.CurrentData.Ссылка</DataPath>
 								<ExtendedTooltip name="ФормаОбщаяКомандаЗаполнениеОбъектаРасширеннаяПодсказка" id="816"/>
 							</Button>
 							<Button name="ФормаРегистрБухгалтерииМеждународныйПроводкиДокументаОперативногоУчета" id="819">
 								<Type>CommandBarButton</Type>
 								<CommandName>0</CommandName>
-								<DataPath>~Items.СписокДокументыЗакупки.CurrentData.Ссылка</DataPath>
 								<ExtendedTooltip name="ФормаРегистрБухгалтерииМеждународныйПроводкиДокументаОперативногоУчетаРасширеннаяПодсказка" id="820"/>
 							</Button>
 							<Button name="ФормаОбработкаОтражениеДокументовВРеглУчетеПроводкиРеглУчета" id="821">
 								<Type>CommandBarButton</Type>
 								<CommandName>0</CommandName>
-								<DataPath>~Items.СписокДокументыЗакупки.CurrentData.Ссылка</DataPath>
 								<ExtendedTooltip name="ФормаОбработкаОтражениеДокументовВРеглУчетеПроводкиРеглУчетаРасширеннаяПодсказка" id="822"/>
 							</Button>
 							<Popup name="ГруппаОрганайзер" id="823">
@@ -798,7 +816,7 @@
 									</v8:item>
 								</Title>
 								<Picture>
-									<xr:Ref>0:54a776e0-e7b8-4ac6-a979-2d9120c73d09</xr:Ref>
+									<xr:Ref>CommonPicture.Органайзер</xr:Ref>
 									<xr:LoadTransparent>false</xr:LoadTransparent>
 								</Picture>
 								<Representation>Picture</Representation>
@@ -807,25 +825,21 @@
 									<Button name="ФормаОбщаяКомандаНапомнить" id="827">
 										<Type>CommandBarButton</Type>
 										<CommandName>0</CommandName>
-										<DataPath>~Items.СписокДокументыЗакупки.CurrentData.Ссылка</DataPath>
 										<ExtendedTooltip name="ФормаОбщаяКомандаНапомнитьРасширеннаяПодсказка" id="828"/>
 									</Button>
 									<Button name="ФормаОбщаяКомандаОтправитьSMS" id="895">
 										<Type>CommandBarButton</Type>
 										<CommandName>0</CommandName>
-										<DataPath>~Items.СписокДокументыЗакупки.CurrentData.Ссылка</DataPath>
 										<ExtendedTooltip name="ФормаОбщаяКомандаОтправитьSMSРасширеннаяПодсказка" id="896"/>
 									</Button>
 									<Button name="ФормаОбщаяКомандаОтправитьПисьмо" id="893">
 										<Type>CommandBarButton</Type>
 										<CommandName>0</CommandName>
-										<DataPath>~Items.СписокДокументыЗакупки.CurrentData.Ссылка</DataPath>
 										<ExtendedTooltip name="ФормаОбщаяКомандаОтправитьПисьмоРасширеннаяПодсказка" id="894"/>
 									</Button>
 									<Button name="ФормаОбщаяКомандаСоздатьЗаметкуПоПредмету" id="825">
 										<Type>CommandBarButton</Type>
 										<CommandName>0</CommandName>
-										<DataPath>~Items.СписокДокументыЗакупки.CurrentData.Ссылка</DataPath>
 										<ExtendedTooltip name="ФормаОбщаяКомандаСоздатьЗаметкуПоПредметуРасширеннаяПодсказка" id="826"/>
 									</Button>
 								</ChildItems>
@@ -851,8 +865,8 @@
 							</v8:item>
 						</Title>
 						<ExtendedTooltip name="ГруппаОбщиеКомандыФормыРасширеннаяПодсказка" id="547"/>
-					<ChildItems>
-						<Button name="ИзменитьФормуКнопка" id="548">
+						<ChildItems>
+							<Button name="ИзменитьФормуКнопка" id="548">
 								<Type>CommandBarButton</Type>
 								<CommandName>0</CommandName>
 								<ExtendedTooltip name="ИзменитьФормуКнопкаРасширеннаяПодсказка" id="549"/>
@@ -924,11 +938,11 @@
 						</v8:item>
 					</ToolTip>
 					<HeaderPicture>
-						<xr:Ref>0:ccf3ff4f-0ea5-4eef-96c6-c9761ff1e0f5</xr:Ref>
+						<xr:Ref>CommonPicture.СостояниеПроверкиКонтрагента</xr:Ref>
 						<xr:LoadTransparent>false</xr:LoadTransparent>
 					</HeaderPicture>
 					<ValuesPicture>
-						<xr:Ref>0:8af48b3d-fc9d-4ce0-8a71-697d5b64f627</xr:Ref>
+						<xr:Ref>CommonPicture.ВниманиеКрасный</xr:Ref>
 						<xr:LoadTransparent>false</xr:LoadTransparent>
 					</ValuesPicture>
 					<FileDragMode>AsFile</FileDragMode>
@@ -986,7 +1000,7 @@
 						</v8:item>
 					</ToolTip>
 					<HeaderPicture>
-						<xr:Ref>0:d5d21887-1de5-40f2-b5cf-1101cb9809ef</xr:Ref>
+						<xr:Ref>CommonPicture.ВРасписаниеРабочегоЦентраВнесеныРучныеИзменения</xr:Ref>
 						<xr:LoadTransparent>false</xr:LoadTransparent>
 					</HeaderPicture>
 					<CheckBoxType>Auto</CheckBoxType>
@@ -1260,10 +1274,10 @@
 							<v8:content>Status</v8:content>
 						</v8:item>
 					</Title>
-			<ContextMenu name="СписокДокументыЗакупкиСтатусКонтекстноеМеню" id="878"/>
-			<ExtendedTooltip name="СписокДокументыЗакупкиСтатусРасширеннаяПодсказка" id="879"/>
-		</LabelField>
-		<InputField name="СписокДокументыЗакупкиСторнируемыйИсправляемыйДокумент" id="908">
+					<ContextMenu name="СписокДокументыЗакупкиСтатусКонтекстноеМеню" id="878"/>
+					<ExtendedTooltip name="СписокДокументыЗакупкиСтатусРасширеннаяПодсказка" id="879"/>
+				</LabelField>
+				<InputField name="СписокДокументыЗакупкиСторнируемыйИсправляемыйДокумент" id="908">
 					<DataPath>~СписокДокументыЗакупки.СторнируемыйИсправляемыйДокумент</DataPath>
 					<Title>
 						<v8:item>
@@ -1293,6 +1307,21 @@
 					<ContextMenu name="СписокДокументыЗакупкиАвторКонтекстноеМеню" id="912"/>
 					<ExtendedTooltip name="СписокДокументыЗакупкиАвторРасширеннаяПодсказка" id="913"/>
 				</LabelField>
+				<LabelField name="СписокДокументыЗакупкиМенеджер" id="917">
+					<DataPath>~СписокДокументыЗакупки.Менеджер</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Менеджер</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Manager</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="СписокДокументыЗакупкиМенеджерКонтекстноеМеню" id="918"/>
+					<ExtendedTooltip name="СписокДокументыЗакупкиМенеджерРасширеннаяПодсказка" id="919"/>
+				</LabelField>
 				<LabelField name="СписокДокументыЗакупкиСсылка" id="95">
 					<DataPath>~СписокДокументыЗакупки.Ссылка</DataPath>
 					<UserVisible>
@@ -1310,21 +1339,6 @@
 					</Title>
 					<ContextMenu name="СписокДокументыЗакупкиСсылкаКонтекстноеМеню" id="96"/>
 					<ExtendedTooltip name="СписокДокументыЗакупкиСсылкаРасширеннаяПодсказка" id="164"/>
-				</LabelField>
-				<LabelField name="СписокДокументыЗакупкиМенеджер" id="917">
-					<DataPath>~СписокДокументыЗакупки.Менеджер</DataPath>
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Менеджер</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Manager</v8:content>
-						</v8:item>
-					</Title>
-					<ContextMenu name="СписокДокументыЗакупкиМенеджерКонтекстноеМеню" id="918"/>
-					<ExtendedTooltip name="СписокДокументыЗакупкиМенеджерРасширеннаяПодсказка" id="919"/>
 				</LabelField>
 				<ColumnGroup name="ГруппаРеглПроверка" id="885">
 					<UserVisible>
@@ -1359,7 +1373,7 @@
 							<ShowInHeader>false</ShowInHeader>
 							<Width>1</Width>
 							<ValuesPicture>
-								<xr:Ref>0:8909d5da-5bf1-45db-ad92-a707a758c904</xr:Ref>
+								<xr:Ref>CommonPicture.ИсключитьИзНастройкиФормированияПроводок</xr:Ref>
 								<xr:LoadTransparent>false</xr:LoadTransparent>
 							</ValuesPicture>
 							<FileDragMode>AsFile</FileDragMode>
@@ -1405,7 +1419,6 @@
 			</Title>
 			<HorizontalStretch>true</HorizontalStretch>
 			<Group>Horizontal</Group>
-			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ПодсказкиБизнесСетьРасширеннаяПодсказка" id="904"/>
@@ -1589,8 +1602,6 @@
 			</Type>
 		</Attribute>
 	</Attributes>
-	<Commands>
-	</Commands>
 	<BaseForm version="2.19">
 		<Title>
 			<v8:item>
@@ -1643,7 +1654,6 @@
 				</Title>
 				<GroupVerticalAlign>Center</GroupVerticalAlign>
 				<Group>Horizontal</Group>
-				<Behavior>Usual</Behavior>
 				<Representation>None</Representation>
 				<ShowTitle>false</ShowTitle>
 				<ExtendedTooltip name="ГруппаОбщиеОтборыРасширеннаяПодсказка" id="339"/>
@@ -1737,7 +1747,7 @@
 							</v8:item>
 							<v8:item>
 								<v8:lang>en</v8:lang>
-								<v8:content>Manager</v8:content>
+								<v8:content>Employee</v8:content>
 							</v8:item>
 						</ToolTip>
 						<Width>20</Width>
@@ -1753,11 +1763,11 @@
 							</v8:item>
 							<v8:item>
 								<v8:lang>en</v8:lang>
-								<v8:content>Manager</v8:content>
+								<v8:content>Employee</v8:content>
 							</v8:item>
 						</InputHint>
 						<ContextMenu name="МенеджерКонтекстноеМеню" id="77"/>
-						<ExtendedTooltip name="МенеджерExtendedTooltip" id="132"/>
+						<ExtendedTooltip name="МенеджерРасширеннаяПодсказка" id="132"/>
 					</InputField>
 					<LabelDecoration name="ИнформационнаяНадписьОтбор" id="880">
 						<Title formatted="true">
@@ -1786,7 +1796,6 @@
 						<v8:content>User settings group</v8:content>
 					</v8:item>
 				</Title>
-				<Behavior>Usual</Behavior>
 				<Representation>None</Representation>
 				<ShowTitle>false</ShowTitle>
 				<ExtendedTooltip name="ГруппаПользовательскихНастроекРасширеннаяПодсказка" id="876"/>
@@ -1806,7 +1815,7 @@
 				<DataPath>СписокДокументыЗакупки</DataPath>
 				<RowPictureDataPath>~СписокДокументыЗакупки.НестандартнаяКартинка</RowPictureDataPath>
 				<RowsPicture>
-					<xr:Ref>0:07d59b7a-1185-487d-b667-6e487b37dbac</xr:Ref>
+					<xr:Ref>CommonPicture.СостоянияДокумента</xr:Ref>
 					<xr:LoadTransparent>false</xr:LoadTransparent>
 				</RowsPicture>
 				<Title>
@@ -2005,7 +2014,7 @@
 									<v8:content>Set status</v8:content>
 								</v8:item>
 							</Title>
-							<ExtendedTooltip name="УстановитьСтатусExtendedTooltip" id="509"/>
+							<ExtendedTooltip name="УстановитьСтатусРасширеннаяПодсказка" id="509"/>
 						</Popup>
 						<ButtonGroup name="СписокГруппаКомандыСписка" id="484">
 							<Title>
@@ -2033,6 +2042,31 @@
 									<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 									<ExtendedTooltip name="СписокИзменитьРасширеннаяПодсказка" id="489"/>
 								</Button>
+								<ButtonGroup name="СписокГруппаЗагрузитьИзСкана" id="917">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Список группа загрузить из скана</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>List group import from scanned copy</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="СписокГруппаЗагрузитьИзСканаРасширеннаяПодсказка" id="918"/>
+									<ChildItems>
+										<Button name="СписокДокументыЗакупкиЗагрузитьИзСканаФото" id="919">
+											<Type>CommandBarButton</Type>
+											<Representation>Picture</Representation>
+											<CommandName>0</CommandName>
+											<Picture>
+												<xr:Ref>CommonPicture.ЗагрузитьДокументыИзСкановФото</xr:Ref>
+												<xr:LoadTransparent>false</xr:LoadTransparent>
+											</Picture>
+											<ExtendedTooltip name="СписокДокументыЗакупкиЗагрузитьИзСканаФотоРасширеннаяПодсказка" id="920"/>
+										</Button>
+									</ChildItems>
+								</ButtonGroup>
 								<Button name="СписокУстановитьПометкуУдаления" id="490">
 									<Type>CommandBarButton</Type>
 									<Representation>Picture</Representation>
@@ -2195,7 +2229,7 @@
 								</v8:item>
 							</Title>
 							<Picture>
-								<xr:Ref>0:4eeb4604-6b1d-444c-b497-332247567af8</xr:Ref>
+								<xr:Ref>CommonPicture.ЗаполнитьПоШаблону</xr:Ref>
 								<xr:LoadTransparent>false</xr:LoadTransparent>
 							</Picture>
 							<Representation>Picture</Representation>
@@ -2213,7 +2247,7 @@
 								</v8:item>
 							</Title>
 							<Picture>
-								<xr:Ref>0:afbc6c91-d280-4aa1-bb4a-fe6b1cf82004</xr:Ref>
+								<xr:Ref>CommonPicture.Отчеты</xr:Ref>
 								<xr:LoadTransparent>false</xr:LoadTransparent>
 							</Picture>
 							<Representation>Picture</Representation>
@@ -2292,7 +2326,7 @@
 								</v8:item>
 							</Title>
 							<CommandSource>FormCommandPanelGlobalCommands</CommandSource>
-							<ExtendedTooltip name="ГруппаГлобальныеКомандыExtendedTooltip" id="555"/>
+							<ExtendedTooltip name="ГруппаГлобальныеКомандыРасширеннаяПодсказка" id="555"/>
 							<ChildItems>
 								<Popup name="ПодменюЭДО" id="558">
 									<Title>
@@ -2348,31 +2382,26 @@
 								<Button name="СписокДокументыЗакупкиОбщаяКомандаОтчетыОбъекта" id="813">
 									<Type>CommandBarButton</Type>
 									<CommandName>0</CommandName>
-									<DataPath>~Items.СписокДокументыЗакупки.CurrentData.Ссылка</DataPath>
 									<ExtendedTooltip name="СписокДокументыЗакупкиОбщаяКомандаОтчетыОбъектаРасширеннаяПодсказка" id="814"/>
 								</Button>
 								<Button name="СписокДокументыЗакупкиОбщаяКомандаДополнительныеСведенияКоманднаяПанель" id="811">
 									<Type>CommandBarButton</Type>
 									<CommandName>0</CommandName>
-									<DataPath>~Items.СписокДокументыЗакупки.CurrentData.Ссылка</DataPath>
 									<ExtendedTooltip name="СписокДокументыЗакупкиОбщаяКомандаДополнительныеСведенияКоманднаяПанельРасширеннаяПодсказка" id="812"/>
 								</Button>
 								<Button name="ФормаОбщаяКомандаЗаполнениеОбъекта" id="815">
 									<Type>CommandBarButton</Type>
 									<CommandName>0</CommandName>
-									<DataPath>~Items.СписокДокументыЗакупки.CurrentData.Ссылка</DataPath>
 									<ExtendedTooltip name="ФормаОбщаяКомандаЗаполнениеОбъектаРасширеннаяПодсказка" id="816"/>
 								</Button>
 								<Button name="ФормаРегистрБухгалтерииМеждународныйПроводкиДокументаОперативногоУчета" id="819">
 									<Type>CommandBarButton</Type>
 									<CommandName>0</CommandName>
-									<DataPath>~Items.СписокДокументыЗакупки.CurrentData.Ссылка</DataPath>
 									<ExtendedTooltip name="ФормаРегистрБухгалтерииМеждународныйПроводкиДокументаОперативногоУчетаРасширеннаяПодсказка" id="820"/>
 								</Button>
 								<Button name="ФормаОбработкаОтражениеДокументовВРеглУчетеПроводкиРеглУчета" id="821">
 									<Type>CommandBarButton</Type>
 									<CommandName>0</CommandName>
-									<DataPath>~Items.СписокДокументыЗакупки.CurrentData.Ссылка</DataPath>
 									<ExtendedTooltip name="ФормаОбработкаОтражениеДокументовВРеглУчетеПроводкиРеглУчетаРасширеннаяПодсказка" id="822"/>
 								</Button>
 								<Popup name="ГруппаОрганайзер" id="823">
@@ -2387,7 +2416,7 @@
 										</v8:item>
 									</Title>
 									<Picture>
-										<xr:Ref>0:54a776e0-e7b8-4ac6-a979-2d9120c73d09</xr:Ref>
+										<xr:Ref>CommonPicture.Органайзер</xr:Ref>
 										<xr:LoadTransparent>false</xr:LoadTransparent>
 									</Picture>
 									<Representation>Picture</Representation>
@@ -2396,25 +2425,21 @@
 										<Button name="ФормаОбщаяКомандаНапомнить" id="827">
 											<Type>CommandBarButton</Type>
 											<CommandName>0</CommandName>
-											<DataPath>~Items.СписокДокументыЗакупки.CurrentData.Ссылка</DataPath>
 											<ExtendedTooltip name="ФормаОбщаяКомандаНапомнитьРасширеннаяПодсказка" id="828"/>
 										</Button>
 										<Button name="ФормаОбщаяКомандаОтправитьSMS" id="895">
 											<Type>CommandBarButton</Type>
 											<CommandName>0</CommandName>
-											<DataPath>~Items.СписокДокументыЗакупки.CurrentData.Ссылка</DataPath>
 											<ExtendedTooltip name="ФормаОбщаяКомандаОтправитьSMSРасширеннаяПодсказка" id="896"/>
 										</Button>
 										<Button name="ФормаОбщаяКомандаОтправитьПисьмо" id="893">
 											<Type>CommandBarButton</Type>
 											<CommandName>0</CommandName>
-											<DataPath>~Items.СписокДокументыЗакупки.CurrentData.Ссылка</DataPath>
 											<ExtendedTooltip name="ФормаОбщаяКомандаОтправитьПисьмоРасширеннаяПодсказка" id="894"/>
 										</Button>
 										<Button name="ФормаОбщаяКомандаСоздатьЗаметкуПоПредмету" id="825">
 											<Type>CommandBarButton</Type>
 											<CommandName>0</CommandName>
-											<DataPath>~Items.СписокДокументыЗакупки.CurrentData.Ссылка</DataPath>
 											<ExtendedTooltip name="ФормаОбщаяКомандаСоздатьЗаметкуПоПредметуРасширеннаяПодсказка" id="826"/>
 										</Button>
 									</ChildItems>
@@ -2513,11 +2538,11 @@
 							</v8:item>
 						</ToolTip>
 						<HeaderPicture>
-							<xr:Ref>0:ccf3ff4f-0ea5-4eef-96c6-c9761ff1e0f5</xr:Ref>
+							<xr:Ref>CommonPicture.СостояниеПроверкиКонтрагента</xr:Ref>
 							<xr:LoadTransparent>false</xr:LoadTransparent>
 						</HeaderPicture>
 						<ValuesPicture>
-							<xr:Ref>0:8af48b3d-fc9d-4ce0-8a71-697d5b64f627</xr:Ref>
+							<xr:Ref>CommonPicture.ВниманиеКрасный</xr:Ref>
 							<xr:LoadTransparent>false</xr:LoadTransparent>
 						</ValuesPicture>
 						<FileDragMode>AsFile</FileDragMode>
@@ -2575,7 +2600,7 @@
 							</v8:item>
 						</ToolTip>
 						<HeaderPicture>
-							<xr:Ref>0:d5d21887-1de5-40f2-b5cf-1101cb9809ef</xr:Ref>
+							<xr:Ref>CommonPicture.ВРасписаниеРабочегоЦентраВнесеныРучныеИзменения</xr:Ref>
 							<xr:LoadTransparent>false</xr:LoadTransparent>
 						</HeaderPicture>
 						<CheckBoxType>Auto</CheckBoxType>
@@ -2882,6 +2907,21 @@
 						<ContextMenu name="СписокДокументыЗакупкиАвторКонтекстноеМеню" id="912"/>
 						<ExtendedTooltip name="СписокДокументыЗакупкиАвторРасширеннаяПодсказка" id="913"/>
 					</LabelField>
+					<LabelField name="СписокДокументыЗакупкиМенеджер" id="921">
+						<DataPath>~СписокДокументыЗакупки.Менеджер</DataPath>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Менеджер</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Manager</v8:content>
+							</v8:item>
+						</Title>
+						<ContextMenu name="СписокДокументыЗакупкиМенеджерКонтекстноеМеню" id="922"/>
+						<ExtendedTooltip name="СписокДокументыЗакупкиМенеджерРасширеннаяПодсказка" id="923"/>
+					</LabelField>
 					<LabelField name="СписокДокументыЗакупкиСсылка" id="95">
 						<DataPath>~СписокДокументыЗакупки.Ссылка</DataPath>
 						<UserVisible>
@@ -2899,21 +2939,6 @@
 						</Title>
 						<ContextMenu name="СписокДокументыЗакупкиСсылкаКонтекстноеМеню" id="96"/>
 						<ExtendedTooltip name="СписокДокументыЗакупкиСсылкаРасширеннаяПодсказка" id="164"/>
-					</LabelField>
-					<LabelField name="СписокДокументыЗакупкиМенеджер" id="917">
-						<DataPath>~СписокДокументыЗакупки.Менеджер</DataPath>
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Менеджер</v8:content>
-							</v8:item>
-							<v8:item>
-								<v8:lang>en</v8:lang>
-								<v8:content>Manager</v8:content>
-							</v8:item>
-						</Title>
-						<ContextMenu name="СписокДокументыЗакупкиМенеджерКонтекстноеМеню" id="918"/>
-						<ExtendedTooltip name="СписокДокументыЗакупкиМенеджерРасширеннаяПодсказка" id="919"/>
 					</LabelField>
 					<ColumnGroup name="ГруппаРеглПроверка" id="885">
 						<UserVisible>
@@ -2948,7 +2973,7 @@
 								<ShowInHeader>false</ShowInHeader>
 								<Width>1</Width>
 								<ValuesPicture>
-									<xr:Ref>0:8909d5da-5bf1-45db-ad92-a707a758c904</xr:Ref>
+									<xr:Ref>CommonPicture.ИсключитьИзНастройкиФормированияПроводок</xr:Ref>
 									<xr:LoadTransparent>false</xr:LoadTransparent>
 								</ValuesPicture>
 								<FileDragMode>AsFile</FileDragMode>
@@ -2994,7 +3019,6 @@
 				</Title>
 				<HorizontalStretch>true</HorizontalStretch>
 				<Group>Horizontal</Group>
-				<Behavior>Usual</Behavior>
 				<Representation>None</Representation>
 				<ShowTitle>false</ShowTitle>
 				<ExtendedTooltip name="ПодсказкиБизнесСетьРасширеннаяПодсказка" id="904"/>
@@ -3026,7 +3050,8 @@
 				<Settings xsi:type="DynamicList">
 					<ManualQuery>true</ManualQuery>
 					<DynamicDataRead>true</DynamicDataRead>
-					<QueryText>ВЫБРАТЬ
+					<QueryText>//Переопределяется в модуле
+ВЫБРАТЬ
 	РеестрДокументовПереопределяемый.Ссылка КАК Ссылка,
 	РеестрДокументовПереопределяемый.НомерДокументаИБ КАК Номер,
 	РеестрДокументовПереопределяемый.ДатаДокументаИБ КАК Дата,
@@ -3076,6 +3101,9 @@
 	КОНЕЦ КАК СторнируемыйИсправляемыйДокумент,
 	NULL КАК СостояниеОригиналаПервичногоДокумента,
 	ИСТИНА КАК ОбщееСостояние,
+	//++ Локализация
+	ВЫРАЗИТЬ("" КАК Строка(50)) КАК СостояниеГИСМТ,
+	//-- Локализация
 	0 КАК СостояниеОригиналПолучен
 {ГДЕ
 	РеестрДокументовПереопределяемый.Ссылка.* КАК Ссылка,

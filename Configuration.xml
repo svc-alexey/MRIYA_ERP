@@ -78,6 +78,13 @@
 			<CommonPicture>ЗаполнитьФорму</CommonPicture>
 			<CommonPicture>КоллекцияПиктограммыТренда</CommonPicture>
 			<CommonPicture>ЗаполнитьПоШаблону</CommonPicture>
+			<CommonPicture>СостоянияДокумента</CommonPicture>
+			<CommonPicture>СостояниеПроверкиКонтрагента</CommonPicture>
+			<CommonPicture>ВниманиеКрасный</CommonPicture>
+			<CommonPicture>ВРасписаниеРабочегоЦентраВнесеныРучныеИзменения</CommonPicture>
+			<CommonPicture>ИсключитьИзНастройкиФормированияПроводок</CommonPicture>
+			<CommonPicture>ЗагрузитьДокументыИзСкановФото</CommonPicture>
+			<CommonPicture>Органайзер</CommonPicture>
 			<SessionParameter>ЛогинДиадок</SessionParameter>
 			<SessionParameter>ПарольДиадок</SessionParameter>
 			<SessionParameter>КлючРазработчикаДиадок</SessionParameter>
@@ -89,6 +96,9 @@
 			<CommonModule>MRS_ИнтеграцияДиадокСервер</CommonModule>
 			<HTTPService>IT_MRIYA</HTTPService>
 			<HTTPService>MRS_VGO</HTTPService>
+			<DefinedType>ДенежнаяСуммаЛюбогоЗнака</DefinedType>
+			<DefinedType>ОснованияЭлектронныхДокументовЭДО</DefinedType>
+			<DefinedType>ИсправляемыеДокументы</DefinedType>
 			<CommonForm>ФормаЗапросаДанныхДиадока</CommonForm>
 			<Catalog>Номенклатура</Catalog>
 			<Catalog>ХарактеристикиНоменклатуры</Catalog>
@@ -105,6 +115,10 @@
 			<Catalog>Склады</Catalog>
 			<Catalog>Пользователи</Catalog>
 			<Catalog>СтатьиДвиженияДенежныхСредств</Catalog>
+			<Catalog>ИдентификаторыОбъектовМетаданных</Catalog>
+			<Catalog>КлючиРеестраДокументов</Catalog>
+			<Catalog>Партнеры</Catalog>
+			<Catalog>Валюты</Catalog>
 			<Document>ЗаказНаПеремещение</Document>
 			<Document>ЗаказПоставщику</Document>
 			<Document>питПланМеню</Document>
@@ -121,6 +135,8 @@
 			<InformationRegister>ПЛ_ЗаданияСверткиДокументовДляБП</InformationRegister>
 			<InformationRegister>MRS_СвязиОбъектовСистемы</InformationRegister>
 			<InformationRegister>РеестрДокументов</InformationRegister>
+			<InformationRegister>ДокументыСОшибкамиПроверкиКонтрагентов</InformationRegister>
+			<InformationRegister>СостоянияПоОбъектамУчетаЭДО</InformationRegister>
 			<ChartOfCharacteristicTypes>СтатьиРасходов</ChartOfCharacteristicTypes>
 		</ChildObjects>
 	</Configuration>
