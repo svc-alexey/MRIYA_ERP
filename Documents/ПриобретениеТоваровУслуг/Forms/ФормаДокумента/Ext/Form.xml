@@ -31,11 +31,6 @@
 				<CommandName>0</CommandName>
 				<ExtendedTooltip name="ФормаПровестиРасширеннаяПодсказка" id="1511"/>
 			</Button>
-			<Button name="ФормаПерейтиВДиадок" id="1885">
-				<Type>CommandBarButton</Type>
-				<CommandName>Form.Command.ПерейтиВДиадок</CommandName>
-				<ExtendedTooltip name="ФормаПерейтиВДиадокРасширеннаяПодсказка" id="1886"/>
-			</Button>
 			<Button name="ФормаУстановитьПометкуУдаленияДокумента" id="1867">
 				<Type>CommandBarButton</Type>
 				<CommandName>0</CommandName>
@@ -1235,37 +1230,6 @@
 							<ContextMenu name="КомментарийКонтекстноеМеню" id="301"/>
 							<ExtendedTooltip name="КомментарийExtendedTooltip" id="1267"/>
 						</InputField>
-						<UsualGroup name="ИТС" id="1892">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>ИТС</v8:content>
-								</v8:item>
-							</Title>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>ИТС</v8:content>
-								</v8:item>
-							</ToolTip>
-							<Behavior>Usual</Behavior>
-							<Representation>None</Representation>
-							<ShowTitle>false</ShowTitle>
-							<ExtendedTooltip name="ИТСРасширеннаяПодсказка" id="1893"/>
-							<ChildItems>
-								<Button name="ПолучитьСтатусДиадок" id="1887">
-									<Type>UsualButton</Type>
-									<CommandName>Form.Command.ПолучитьСтатусДиадок</CommandName>
-									<ExtendedTooltip name="ПолучитьСтатусДиадокРасширеннаяПодсказка" id="1888"/>
-								</Button>
-								<LabelField name="СтатусДиадок" id="1889">
-									<DataPath>СтатусДиадок</DataPath>
-									<TitleLocation>None</TitleLocation>
-									<ContextMenu name="СтатусДиадокКонтекстноеМеню" id="1890"/>
-									<ExtendedTooltip name="СтатусДиадокРасширеннаяПодсказка" id="1891"/>
-								</LabelField>
-							</ChildItems>
-						</UsualGroup>
 					</ChildItems>
 				</Page>
 				<Page name="ГруппаТовары" id="34">
@@ -4042,61 +4006,8 @@ number</v8:content>
 		</UsualGroup>
 	</ChildItems>
 	<Attributes>
-		<Attribute name="СтатусДиадок" id="1000001">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content> </v8:content>
-				</v8:item>
-			</Title>
-			<Type>
-				<v8:Type>xs:string</v8:Type>
-				<v8:StringQualifiers>
-					<v8:Length>0</v8:Length>
-					<v8:AllowedLength>Variable</v8:AllowedLength>
-				</v8:StringQualifiers>
-			</Type>
-		</Attribute>
 	</Attributes>
 	<Commands>
-		<Command name="ПерейтиВДиадок" id="1000000">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Перейти в диадок</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Перейти в диадок</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Picture>
-				<xr:Ref>CommonPicture.ITS_ДиадокОбщаяКартинка</xr:Ref>
-				<xr:LoadTransparent>true</xr:LoadTransparent>
-			</Picture>
-			<Action callType="After">ITS_ДиадокПерейтиВДиадокПосле</Action>
-		</Command>
-		<Command name="ПолучитьСтатусДиадок" id="1000001">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Получить статус диадок</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Получить статус диадок</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Picture>
-				<xr:Ref>0:52b09c3b-8b78-4a43-bb4e-848c101be620</xr:Ref>
-				<xr:LoadTransparent>true</xr:LoadTransparent>
-			</Picture>
-			<Action callType="After">ITS_ДиадокПолучитьСтатусДиадокПосле</Action>
-		</Command>
 	</Commands>
 	<BaseForm version="2.19">
 		<CommandSet>

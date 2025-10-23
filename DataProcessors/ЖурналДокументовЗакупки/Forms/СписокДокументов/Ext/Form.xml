@@ -38,7 +38,6 @@
 		<Autofill>false</Autofill>
 	</AutoCommandBar>
 	<Events>
-		<Event name="OnOpen" callType="After">ITS_ДиадокПриОткрытииПосле</Event>
 		<Event name="OnCreateAtServer" callType="After">ITS_ДиадокПриСозданииНаСервереПосле</Event>
 	</Events>
 	<ChildItems>
@@ -852,19 +851,8 @@
 							</v8:item>
 						</Title>
 						<ExtendedTooltip name="ГруппаОбщиеКомандыФормыРасширеннаяПодсказка" id="547"/>
-						<ChildItems>
-							<Button name="СписокДокументыЗакупкиПолучитьСтатусДиадок" id="920">
-								<Type>CommandBarButton</Type>
-								<CommandName>Form.Command.ПерейтиВДиадок</CommandName>
-								<ExtendedTooltip name="СписокДокументыЗакупкиПолучитьСтатусДиадокРасширеннаяПодсказка" id="921"/>
-							</Button>
-							<Button name="ПерейтиВДиадок" id="922">
-								<Type>CommandBarButton</Type>
-								<Representation>Picture</Representation>
-								<CommandName>Form.Command.ПолучитьСтатусДиадок</CommandName>
-								<ExtendedTooltip name="ПерейтиВДиадокРасширеннаяПодсказка" id="923"/>
-							</Button>
-							<Button name="ИзменитьФормуКнопка" id="548">
+					<ChildItems>
+						<Button name="ИзменитьФормуКнопка" id="548">
 								<Type>CommandBarButton</Type>
 								<CommandName>0</CommandName>
 								<ExtendedTooltip name="ИзменитьФормуКнопкаРасширеннаяПодсказка" id="549"/>
@@ -1052,12 +1040,6 @@
 						</LabelField>
 					</ChildItems>
 				</ColumnGroup>
-				<CheckBoxField name="СозданВДиадок" id="924">
-					<DataPath>~СписокДокументыЗакупки.СозданВДиадок</DataPath>
-					<CheckBoxType>Auto</CheckBoxType>
-					<ContextMenu name="СозданВДиадокКонтекстноеМеню" id="925"/>
-					<ExtendedTooltip name="СозданВДиадокРасширеннаяПодсказка" id="926"/>
-				</CheckBoxField>
 				<LabelField name="СписокДокументыЗакупкиНомерВходящегоДокумента" id="100">
 					<DataPath>~СписокДокументыЗакупки.НомерВходящегоДокумента</DataPath>
 					<UserVisible>
@@ -1278,15 +1260,10 @@
 							<v8:content>Status</v8:content>
 						</v8:item>
 					</Title>
-					<ContextMenu name="СписокДокументыЗакупкиСтатусКонтекстноеМеню" id="878"/>
-					<ExtendedTooltip name="СписокДокументыЗакупкиСтатусРасширеннаяПодсказка" id="879"/>
-				</LabelField>
-				<LabelField name="СтатусДиадок" id="927">
-					<DataPath>~СписокДокументыЗакупки.СтатусДиадок</DataPath>
-					<ContextMenu name="СтатусДиадокКонтекстноеМеню" id="928"/>
-					<ExtendedTooltip name="СтатусДиадокРасширеннаяПодсказка" id="929"/>
-				</LabelField>
-				<InputField name="СписокДокументыЗакупкиСторнируемыйИсправляемыйДокумент" id="908">
+			<ContextMenu name="СписокДокументыЗакупкиСтатусКонтекстноеМеню" id="878"/>
+			<ExtendedTooltip name="СписокДокументыЗакупкиСтатусРасширеннаяПодсказка" id="879"/>
+		</LabelField>
+		<InputField name="СписокДокументыЗакупкиСторнируемыйИсправляемыйДокумент" id="908">
 					<DataPath>~СписокДокументыЗакупки.СторнируемыйИсправляемыйДокумент</DataPath>
 					<Title>
 						<v8:item>
@@ -1613,44 +1590,6 @@
 		</Attribute>
 	</Attributes>
 	<Commands>
-		<Command name="ПолучитьСтатусДиадок" id="1000000">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Получить статус диадок</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Получить статус диадок</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Picture>
-				<xr:Ref>0:52b09c3b-8b78-4a43-bb4e-848c101be620</xr:Ref>
-				<xr:LoadTransparent>true</xr:LoadTransparent>
-			</Picture>
-			<Action callType="After">ITS_ДиадокПолучитьСтатусДиадокПосле</Action>
-		</Command>
-		<Command name="ПерейтиВДиадок" id="1000001">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Перейти в диадок</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Перейти в диадок</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Picture>
-				<xr:Ref>CommonPicture.ITS_ДиадокОбщаяКартинка</xr:Ref>
-				<xr:LoadTransparent>true</xr:LoadTransparent>
-			</Picture>
-			<Action callType="After">ITS_ДиадокПерейтиВДиадокПосле</Action>
-		</Command>
 	</Commands>
 	<BaseForm version="2.19">
 		<Title>
