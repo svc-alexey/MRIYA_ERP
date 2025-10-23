@@ -67,14 +67,29 @@
 			<Language>Русский</Language>
 			<Subsystem>Администрирование</Subsystem>
 			<Subsystem>Закупки</Subsystem>
+			<StyleItem>ИтогиФон</StyleItem>
+			<StyleItem>ЦветФонаВыделения</StyleItem>
 			<CommonPicture>ITS_ДиадокОбщаяКартинка</CommonPicture>
+			<CommonPicture>Отчеты</CommonPicture>
+			<CommonPicture>ПревышениеЗаказа</CommonPicture>
+			<CommonPicture>СерииНоменклатурыКолонкаСтатусов</CommonPicture>
+			<CommonPicture>СостоянияСтрок</CommonPicture>
+			<CommonPicture>СтатусыУказанияСерий</CommonPicture>
+			<CommonPicture>ЗаполнитьФорму</CommonPicture>
+			<CommonPicture>КоллекцияПиктограммыТренда</CommonPicture>
+			<CommonPicture>ЗаполнитьПоШаблону</CommonPicture>
 			<SessionParameter>ЛогинДиадок</SessionParameter>
 			<SessionParameter>ПарольДиадок</SessionParameter>
 			<SessionParameter>КлючРазработчикаДиадок</SessionParameter>
 			<Role>IT_MRIYA</Role>
 			<Role>IT_РедактированиеДатыПоступления</Role>
+			<CommonTemplate>БиблиотекаТекстов</CommonTemplate>
+			<CommonModule>MRS_ИнтеграцияДиадокКлиент</CommonModule>
+			<CommonModule>MRS_ИнтеграцияДиадокКлиентСервер</CommonModule>
+			<CommonModule>MRS_ИнтеграцияДиадокСервер</CommonModule>
 			<HTTPService>IT_MRIYA</HTTPService>
 			<HTTPService>MRS_VGO</HTTPService>
+			<CommonForm>ФормаЗапросаДанныхДиадока</CommonForm>
 			<Catalog>Номенклатура</Catalog>
 			<Catalog>ХарактеристикиНоменклатуры</Catalog>
 			<Catalog>ДоговорыКонтрагентов</Catalog>
@@ -96,6 +111,9 @@
 			<Document>ПриобретениеТоваровУслуг</Document>
 			<Document>АС_ИнвентаризацияТМЦВЭксплуатации</Document>
 			<Enum>СостоянияДокументовЭДО</Enum>
+			<Enum>ХозяйственныеОперации</Enum>
+			<Enum>СпособыДоставки</Enum>
+			<Enum>СтатусыДоговоровКонтрагентов</Enum>
 			<DataProcessor>ПечатьСчетовНаОплату</DataProcessor>
 			<DataProcessor>ОбеспечениеПотребностей</DataProcessor>
 			<DataProcessor>ЖурналДокументовЗакупки</DataProcessor>
