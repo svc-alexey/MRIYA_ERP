@@ -99,6 +99,7 @@
 			<DefinedType>ДенежнаяСуммаЛюбогоЗнака</DefinedType>
 			<DefinedType>ОснованияЭлектронныхДокументовЭДО</DefinedType>
 			<DefinedType>ИсправляемыеДокументы</DefinedType>
+			<DefinedType>ДенежнаяСуммаНеотрицательная</DefinedType>
 			<CommonForm>ФормаЗапросаДанныхДиадока</CommonForm>
 			<Catalog>Номенклатура</Catalog>
 			<Catalog>ХарактеристикиНоменклатуры</Catalog>
@@ -119,15 +120,27 @@
 			<Catalog>КлючиРеестраДокументов</Catalog>
 			<Catalog>Партнеры</Catalog>
 			<Catalog>Валюты</Catalog>
-			<Document>ЗаказНаПеремещение</Document>
+			<Catalog>КГМ_ТехнологическиеОперацииВиноделия</Catalog>
+			<Catalog>СерииНоменклатуры</Catalog>
+			<Catalog>Контрагенты</Catalog>
+			<Catalog>алкКодыБюджетнойКлассификации2005</Catalog>
+			<Document>РеализацияТоваровУслуг</Document>
 			<Document>ЗаказПоставщику</Document>
 			<Document>питПланМеню</Document>
-			<Document>ПриобретениеТоваровУслуг</Document>
+			<Document>ЗаказНаПеремещение</Document>
 			<Document>АС_ИнвентаризацияТМЦВЭксплуатации</Document>
+			<Document>ПеремещениеТоваров</Document>
+			<Document>ПриобретениеТоваровУслуг</Document>
+			<Document>ПрочееОприходованиеТоваров</Document>
+			<Document>ВозвратТоваровОтКлиента</Document>
+			<Document>ВнутреннееПотребление</Document>
 			<Enum>СостоянияДокументовЭДО</Enum>
 			<Enum>ХозяйственныеОперации</Enum>
 			<Enum>СпособыДоставки</Enum>
 			<Enum>СтатусыДоговоровКонтрагентов</Enum>
+			<Enum>ВидыОперацийДляПрослеживаемости</Enum>
+			<Enum>алкСостоянияОплатыВходящегоАкциза</Enum>
+			<Enum>алкСостоянияПодакцизногоСырья</Enum>
 			<DataProcessor>ПечатьСчетовНаОплату</DataProcessor>
 			<DataProcessor>ОбеспечениеПотребностей</DataProcessor>
 			<DataProcessor>ЖурналДокументовЗакупки</DataProcessor>
@@ -137,6 +150,9 @@
 			<InformationRegister>РеестрДокументов</InformationRegister>
 			<InformationRegister>ДокументыСОшибкамиПроверкиКонтрагентов</InformationRegister>
 			<InformationRegister>СостоянияПоОбъектамУчетаЭДО</InformationRegister>
+			<AccumulationRegister>ОстаткиАлкогольнойПродукцииЕГАИС</AccumulationRegister>
+			<AccumulationRegister>КГМ_Прослеживаемость</AccumulationRegister>
+			<AccumulationRegister>алкАкцизПоПриобретеннымЦенностям</AccumulationRegister>
 			<ChartOfCharacteristicTypes>СтатьиРасходов</ChartOfCharacteristicTypes>
 		</ChildObjects>
 	</Configuration>
