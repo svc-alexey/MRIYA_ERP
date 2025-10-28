@@ -122,7 +122,14 @@
 		<Metadata name="CommonPicture.СтатусыУказанияСерий" id="ab9405c0-97dc-4849-9061-399eb7d8aaa9" configVersion="549f5786e7900455a0262195cd2dbea37bc5bfdf"/>
 		<Metadata name="CommonTemplate.БиблиотекаТекстов" id="90cbf2f5-8be7-43f9-bb85-215e0b195efb" configVersion="3441cc8918bc52c03cf9c677fd5de227945bdbfc"/>
 		<Metadata name="CommonTemplate.БиблиотекаТекстов.Template" id="90cbf2f5-8be7-43f9-bb85-215e0b195efb.0" configVersion="c4e4769c4681c58a5019db59ed6895c5cc8e16e5"/>
-		<Metadata name="Configuration.MRIYA_ERP" id="67b60af2-091f-484e-bee9-33b6e67417df" configVersion="1ac793f1be190d0e82161bd769cc9d8752d42dff"/>
+		<Metadata name="Configuration.MRIYA_ERP" id="67b60af2-091f-484e-bee9-33b6e67417df" configVersion="47f30fcc12264fbdda0900de4486324bad80978c"/>
+		<Metadata name="DataProcessor.MRS_СозданиеНоменклатурныхЗамен" id="834dad90-068c-4a2c-ad0f-ec77b05c3293" configVersion="d17388434a878ea1ddda63b555082f2d354b6076">
+			<Metadata name="DataProcessor.MRS_СозданиеНоменклатурныхЗамен.Attribute.Адрес" id="45692267-9065-47ec-820b-61b264d22140"/>
+			<Metadata name="DataProcessor.MRS_СозданиеНоменклатурныхЗамен.Attribute.КаталогСохранения" id="661484f8-c054-4d11-b156-2c0221a5da39"/>
+		</Metadata>
+		<Metadata name="DataProcessor.MRS_СозданиеНоменклатурныхЗамен.Form.Форма" id="71490a4d-da47-4ba5-b48f-7cf653086c86" configVersion="a6fef6989b6e49384f339fc0980c493b9083bd92"/>
+		<Metadata name="DataProcessor.MRS_СозданиеНоменклатурныхЗамен.Form.Форма.Form" id="71490a4d-da47-4ba5-b48f-7cf653086c86.0" configVersion="548e3aec45f02c7b74dc924db23cd73e2b4fef8e"/>
+		<Metadata name="DataProcessor.MRS_СозданиеНоменклатурныхЗамен.ObjectModule" id="834dad90-068c-4a2c-ad0f-ec77b05c3293.0" configVersion="0dd33af41437afc7cf25296a09fec1102c778a0f"/>
 		<Metadata name="DataProcessor.ЖурналДокументовЗакупки" id="6a4f96b9-3ad4-4973-b47d-1b21ff85986c" configVersion="93d1b4244fbefeacf321f2e955d3ad566f6dd928"/>
 		<Metadata name="DataProcessor.ЖурналДокументовЗакупки.Form.СписокДокументов" id="6079cf69-82c1-4389-b133-9a98f2f210df" configVersion="eb646669b6ea0deb92f3db5d25a531f7a63a2aad"/>
 		<Metadata name="DataProcessor.ЖурналДокументовЗакупки.Form.СписокДокументов.Form" id="6079cf69-82c1-4389-b133-9a98f2f210df.0" configVersion="5258a369ee7dad49cce3ab2ec1e6a2f74b0c8746"/>

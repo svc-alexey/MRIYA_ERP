@@ -144,6 +144,7 @@
 			<DataProcessor>ПечатьСчетовНаОплату</DataProcessor>
 			<DataProcessor>ОбеспечениеПотребностей</DataProcessor>
 			<DataProcessor>ЖурналДокументовЗакупки</DataProcessor>
+			<DataProcessor>MRS_СозданиеНоменклатурныхЗамен</DataProcessor>
 			<InformationRegister>IT_НастройкиПрограммы</InformationRegister>
 			<InformationRegister>ПЛ_ЗаданияСверткиДокументовДляБП</InformationRegister>
 			<InformationRegister>MRS_СвязиОбъектовСистемы</InformationRegister>
