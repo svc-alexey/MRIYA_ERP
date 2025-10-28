@@ -54,7 +54,6 @@
 								</v8:item>
 							</ToolTip>
 							<Group>AlwaysHorizontal</Group>
-							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаРецептураКоличествоРасширеннаяПодсказка" id="8"/>
@@ -88,7 +87,6 @@
 							<GroupHorizontalAlign>Right</GroupHorizontalAlign>
 							<Group>AlwaysHorizontal</Group>
 							<HorizontalAlign>Right</HorizontalAlign>
-							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<United>false</United>
 							<ShowTitle>false</ShowTitle>

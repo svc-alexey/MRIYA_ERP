@@ -23,7 +23,6 @@
 					<v8:content>Группа период</v8:content>
 				</v8:item>
 			</ToolTip>
-			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаПериодРасширеннаяПодсказка" id="11"/>

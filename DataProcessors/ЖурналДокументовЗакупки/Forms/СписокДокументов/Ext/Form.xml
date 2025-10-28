@@ -1813,7 +1813,7 @@
 				<InitialListView>End</InitialListView>
 				<FileDragMode>AsFile</FileDragMode>
 				<DataPath>СписокДокументыЗакупки</DataPath>
-				<RowPictureDataPath>~СписокДокументыЗакупки.НестандартнаяКартинка</RowPictureDataPath>
+				<RowPictureDataPath>СписокДокументыЗакупки.НестандартнаяКартинка</RowPictureDataPath>
 				<RowsPicture>
 					<xr:Ref>CommonPicture.СостоянияДокумента</xr:Ref>
 					<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -2514,7 +2514,7 @@
 				</SearchControlAddition>
 				<ChildItems>
 					<PictureField name="ЕстьОшибкиПроверкиКонтрагентов" id="209">
-						<DataPath>~СписокДокументыЗакупки.ЕстьОшибкиПроверкиКонтрагентов</DataPath>
+						<DataPath>СписокДокументыЗакупки.ЕстьОшибкиПроверкиКонтрагентов</DataPath>
 						<Visible>false</Visible>
 						<Title>
 							<v8:item>
@@ -2550,7 +2550,7 @@
 						<ExtendedTooltip name="ЕстьОшибкиПроверкиКонтрагентовРасширеннаяПодсказка" id="211"/>
 					</PictureField>
 					<InputField name="СписокДокументыЗакупкиНомер" id="6">
-						<DataPath>~СписокДокументыЗакупки.Номер</DataPath>
+						<DataPath>СписокДокументыЗакупки.Номер</DataPath>
 						<Title>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
@@ -2568,7 +2568,7 @@
 						<ExtendedTooltip name="СписокДокументыЗакупкиНомерРасширеннаяПодсказка" id="145"/>
 					</InputField>
 					<InputField name="СписокДокументыЗакупкиДата" id="227">
-						<DataPath>~СписокДокументыЗакупки.Дата</DataPath>
+						<DataPath>СписокДокументыЗакупки.Дата</DataPath>
 						<DefaultItem>true</DefaultItem>
 						<Title>
 							<v8:item>
@@ -2587,7 +2587,7 @@
 						<ExtendedTooltip name="СписокДокументыЗакупкиДатаРасширеннаяПодсказка" id="229"/>
 					</InputField>
 					<CheckBoxField name="СписокДокументыЗакупкиСторноИсправление" id="905">
-						<DataPath>~СписокДокументыЗакупки.СторноИсправление</DataPath>
+						<DataPath>СписокДокументыЗакупки.СторноИсправление</DataPath>
 						<TitleLocation>None</TitleLocation>
 						<ToolTip>
 							<v8:item>
@@ -2622,7 +2622,7 @@
 						<ExtendedTooltip name="ГруппаОперацияТипРасширеннаяПодсказка" id="594"/>
 						<ChildItems>
 							<LabelField name="СписокДокументыЗакупкиТипЗначения" id="595">
-								<DataPath>~СписокДокументыЗакупки.ТипЗначения</DataPath>
+								<DataPath>СписокДокументыЗакупки.ТипЗначения</DataPath>
 								<Title>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
@@ -2637,7 +2637,7 @@
 								<ExtendedTooltip name="СписокДокументыЗакупкиТипЗначенияРасширеннаяПодсказка" id="597"/>
 							</LabelField>
 							<LabelField name="СписокДокументыЗакупкиХозяйственнаяОперация" id="85">
-								<DataPath>~СписокДокументыЗакупки.ХозяйственнаяОперация</DataPath>
+								<DataPath>СписокДокументыЗакупки.ХозяйственнаяОперация</DataPath>
 								<Title>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
@@ -2655,7 +2655,7 @@
 						</ChildItems>
 					</ColumnGroup>
 					<LabelField name="СписокДокументыЗакупкиНомерВходящегоДокумента" id="100">
-						<DataPath>~СписокДокументыЗакупки.НомерВходящегоДокумента</DataPath>
+						<DataPath>СписокДокументыЗакупки.НомерВходящегоДокумента</DataPath>
 						<UserVisible>
 							<xr:Common>false</xr:Common>
 						</UserVisible>
@@ -2675,7 +2675,7 @@
 						<ExtendedTooltip name="СписокДокументыЗакупкиНомерВходящегоДокументаРасширеннаяПодсказка" id="147"/>
 					</LabelField>
 					<LabelField name="СписокДокументыЗакупкиДатаВходящегоДокумента" id="98">
-						<DataPath>~СписокДокументыЗакупки.ДатаВходящегоДокумента</DataPath>
+						<DataPath>СписокДокументыЗакупки.ДатаВходящегоДокумента</DataPath>
 						<UserVisible>
 							<xr:Common>false</xr:Common>
 						</UserVisible>
@@ -2695,7 +2695,7 @@
 						<ExtendedTooltip name="СписокДокументыЗакупкиДатаВходящегоДокументаРасширеннаяПодсказка" id="148"/>
 					</LabelField>
 					<InputField name="СписокДокументыЗакупкиСуммаДокумента" id="18">
-						<DataPath>~СписокДокументыЗакупки.СуммаДокумента</DataPath>
+						<DataPath>СписокДокументыЗакупки.СуммаДокумента</DataPath>
 						<Title>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
@@ -2712,7 +2712,7 @@
 						<ExtendedTooltip name="СписокДокументыЗакупкиСуммаДокументаРасширеннаяПодсказка" id="149"/>
 					</InputField>
 					<InputField name="СписокДокументыЗакупкиВалюта" id="16">
-						<DataPath>~СписокДокументыЗакупки.Валюта</DataPath>
+						<DataPath>СписокДокументыЗакупки.Валюта</DataPath>
 						<Title>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
@@ -2730,12 +2730,12 @@
 						<ExtendedTooltip name="СписокДокументыЗакупкиВалютаРасширеннаяПодсказка" id="150"/>
 					</InputField>
 					<InputField name="СостояниеЭДО" id="914">
-						<DataPath>~СписокДокументыЗакупки.СостояниеЭДО</DataPath>
+						<DataPath>СписокДокументыЗакупки.СостояниеЭДО</DataPath>
 						<ContextMenu name="СостояниеЭДОКонтекстноеМеню" id="915"/>
 						<ExtendedTooltip name="СостояниеЭДОРасширеннаяПодсказка" id="916"/>
 					</InputField>
 					<InputField name="СписокДокументыЗакупкиПартнер" id="8">
-						<DataPath>~СписокДокументыЗакупки.Партнер</DataPath>
+						<DataPath>СписокДокументыЗакупки.Партнер</DataPath>
 						<Title>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
@@ -2752,7 +2752,7 @@
 						<ExtendedTooltip name="СписокДокументыЗакупкиПартнерРасширеннаяПодсказка" id="156"/>
 					</InputField>
 					<InputField name="СписокДокументыЗакупкиКонтрагент" id="10">
-						<DataPath>~СписокДокументыЗакупки.Контрагент</DataPath>
+						<DataPath>СписокДокументыЗакупки.Контрагент</DataPath>
 						<Title>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
@@ -2769,14 +2769,14 @@
 						<ExtendedTooltip name="СписокДокументыЗакупкиКонтрагентРасширеннаяПодсказка" id="157"/>
 					</InputField>
 					<InputField name="СписокДокументыЗакупкиОрганизация" id="12">
-						<DataPath>~СписокДокументыЗакупки.Организация</DataPath>
+						<DataPath>СписокДокументыЗакупки.Организация</DataPath>
 						<Width>16</Width>
 						<Wrap>false</Wrap>
 						<ContextMenu name="СписокДокументыЗакупкиОрганизацияКонтекстноеМеню" id="13"/>
 						<ExtendedTooltip name="СписокДокументыЗакупкиОрганизацияРасширеннаяПодсказка" id="158"/>
 					</InputField>
 					<LabelField name="СписокДокументыЗакупкиСклад" id="587">
-						<DataPath>~СписокДокументыЗакупки.Склад</DataPath>
+						<DataPath>СписокДокументыЗакупки.Склад</DataPath>
 						<Title>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
@@ -2791,7 +2791,7 @@
 						<ExtendedTooltip name="СписокДокументыЗакупкиСкладРасширеннаяПодсказка" id="589"/>
 					</LabelField>
 					<LabelField name="СписокДокументыЗакупкиДоговор" id="897">
-						<DataPath>~СписокДокументыЗакупки.Договор</DataPath>
+						<DataPath>СписокДокументыЗакупки.Договор</DataPath>
 						<Title>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
@@ -2807,7 +2807,7 @@
 						<ExtendedTooltip name="СписокДокументыЗакупкиДоговорРасширеннаяПодсказка" id="899"/>
 					</LabelField>
 					<LabelField name="СписокДокументыЗакупкиПодразделение" id="900">
-						<DataPath>~СписокДокументыЗакупки.Подразделение</DataPath>
+						<DataPath>СписокДокументыЗакупки.Подразделение</DataPath>
 						<Title>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
@@ -2822,7 +2822,7 @@
 						<ExtendedTooltip name="СписокДокументыЗакупкиПодразделениеРасширеннаяПодсказка" id="902"/>
 					</LabelField>
 					<LabelField name="СписокДокументыЗакупкиДополнительно" id="115">
-						<DataPath>~СписокДокументыЗакупки.Дополнительно</DataPath>
+						<DataPath>СписокДокументыЗакупки.Дополнительно</DataPath>
 						<UserVisible>
 							<xr:Common>false</xr:Common>
 						</UserVisible>
@@ -2841,7 +2841,7 @@
 						<ExtendedTooltip name="СписокДокументыЗакупкиДополнительноРасширеннаяПодсказка" id="161"/>
 					</LabelField>
 					<LabelField name="СписокДокументыЗакупкиКомментарий" id="89">
-						<DataPath>~СписокДокументыЗакупки.Комментарий</DataPath>
+						<DataPath>СписокДокументыЗакупки.Комментарий</DataPath>
 						<UserVisible>
 							<xr:Common>false</xr:Common>
 						</UserVisible>
@@ -2860,7 +2860,7 @@
 						<ExtendedTooltip name="СписокДокументыЗакупкиКомментарийРасширеннаяПодсказка" id="163"/>
 					</LabelField>
 					<LabelField name="СписокДокументыЗакупкиСтатус" id="877">
-						<DataPath>~СписокДокументыЗакупки.Статус</DataPath>
+						<DataPath>СписокДокументыЗакупки.Статус</DataPath>
 						<UserVisible>
 							<xr:Common>false</xr:Common>
 						</UserVisible>
@@ -2878,7 +2878,7 @@
 						<ExtendedTooltip name="СписокДокументыЗакупкиСтатусРасширеннаяПодсказка" id="879"/>
 					</LabelField>
 					<InputField name="СписокДокументыЗакупкиСторнируемыйИсправляемыйДокумент" id="908">
-						<DataPath>~СписокДокументыЗакупки.СторнируемыйИсправляемыйДокумент</DataPath>
+						<DataPath>СписокДокументыЗакупки.СторнируемыйИсправляемыйДокумент</DataPath>
 						<Title>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
@@ -2893,7 +2893,7 @@
 						<ExtendedTooltip name="СписокДокументыЗакупкиСторнируемыйИсправляемыйДокументРасширеннаяПодсказка" id="910"/>
 					</InputField>
 					<LabelField name="СписокДокументыЗакупкиАвтор" id="911">
-						<DataPath>~СписокДокументыЗакупки.Автор</DataPath>
+						<DataPath>СписокДокументыЗакупки.Автор</DataPath>
 						<Title>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
@@ -2908,7 +2908,7 @@
 						<ExtendedTooltip name="СписокДокументыЗакупкиАвторРасширеннаяПодсказка" id="913"/>
 					</LabelField>
 					<LabelField name="СписокДокументыЗакупкиМенеджер" id="921">
-						<DataPath>~СписокДокументыЗакупки.Менеджер</DataPath>
+						<DataPath>СписокДокументыЗакупки.Менеджер</DataPath>
 						<Title>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
@@ -2923,7 +2923,7 @@
 						<ExtendedTooltip name="СписокДокументыЗакупкиМенеджерРасширеннаяПодсказка" id="923"/>
 					</LabelField>
 					<LabelField name="СписокДокументыЗакупкиСсылка" id="95">
-						<DataPath>~СписокДокументыЗакупки.Ссылка</DataPath>
+						<DataPath>СписокДокументыЗакупки.Ссылка</DataPath>
 						<UserVisible>
 							<xr:Common>false</xr:Common>
 						</UserVisible>
@@ -2959,7 +2959,7 @@
 						<ExtendedTooltip name="ГруппаРеглПроверкаРасширеннаяПодсказка" id="886"/>
 						<ChildItems>
 							<PictureField name="ИндикаторПроверки" id="887">
-								<DataPath>~СписокДокументыЗакупки.ИндикаторПроверки</DataPath>
+								<DataPath>СписокДокументыЗакупки.ИндикаторПроверки</DataPath>
 								<Title>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
@@ -2981,7 +2981,7 @@
 								<ExtendedTooltip name="ИндикаторПроверкиРасширеннаяПодсказка" id="889"/>
 							</PictureField>
 							<LabelField name="СтатусПроверки" id="890">
-								<DataPath>~СписокДокументыЗакупки.СтатусПроверки</DataPath>
+								<DataPath>СписокДокументыЗакупки.СтатусПроверки</DataPath>
 								<Title>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
@@ -3042,10 +3042,10 @@
 				<MainAttribute>true</MainAttribute>
 				<UseAlways>
 					<Field>~СписокДокументыЗакупки.Ref</Field>
-					<Field>~СписокДокументыЗакупки.ОбщееСостояние</Field>
-					<Field>~СписокДокументыЗакупки.ПометкаУдаления</Field>
-					<Field>~СписокДокументыЗакупки.СостояниеОригиналаПервичногоДокумента</Field>
-					<Field>~СписокДокументыЗакупки.Ссылка</Field>
+					<Field>СписокДокументыЗакупки.ОбщееСостояние</Field>
+					<Field>СписокДокументыЗакупки.ПометкаУдаления</Field>
+					<Field>СписокДокументыЗакупки.СостояниеОригиналаПервичногоДокумента</Field>
+					<Field>СписокДокументыЗакупки.Ссылка</Field>
 				</UseAlways>
 				<Settings xsi:type="DynamicList">
 					<ManualQuery>true</ManualQuery>

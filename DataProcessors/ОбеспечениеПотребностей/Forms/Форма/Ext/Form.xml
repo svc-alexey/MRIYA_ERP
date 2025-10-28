@@ -89,7 +89,6 @@
 												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
-											<Behavior>Usual</Behavior>
 											<Representation>NormalSeparation</Representation>
 											<ExtendedTooltip name="ГруппаОтборыПотребностьExtendedTooltip" id="2931"/>
 											<ChildItems>
@@ -269,7 +268,6 @@
 												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
-											<Behavior>Usual</Behavior>
 											<Representation>NormalSeparation</Representation>
 											<ExtendedTooltip name="ГруппаОтборыОбеспечениеExtendedTooltip" id="2939"/>
 											<ChildItems>
@@ -486,7 +484,6 @@
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
-							<Behavior>Usual</Behavior>
 							<Representation>NormalSeparation</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаПараметрыОбеспеченияПотребностейExtendedTooltip" id="2957"/>
@@ -515,7 +512,6 @@
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
-							<Behavior>Usual</Behavior>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаЛинияШаг1ExtendedTooltip" id="2960"/>
 							<ChildItems>
@@ -576,7 +572,6 @@
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
-							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="КомандыШагНастройкаСпособовОбеспеченияExtendedTooltip" id="2966"/>
@@ -851,7 +846,6 @@
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
-							<Behavior>Usual</Behavior>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="КомандыШагНастройкаExtendedTooltip" id="2986"/>
 							<ChildItems>
@@ -1318,7 +1312,6 @@
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
-							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаСРазделителемРасширеннаяПодсказка" id="4868"/>
@@ -1335,7 +1328,6 @@
 										</v8:item>
 									</Title>
 									<Group>Horizontal</Group>
-									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаТаблицаПотребностейИПанельРекомендацийРасширеннаяПодсказка" id="4460"/>
@@ -2217,7 +2209,6 @@
 																</v8:item>
 															</Title>
 															<Group>Vertical</Group>
-															<Behavior>Usual</Behavior>
 															<ExtendedTooltip name="СкладскиеЗапасы1РасширеннаяПодсказка" id="3379"/>
 															<ChildItems>
 																<LabelField name="Остаток1" id="3380">
@@ -2367,7 +2358,6 @@
 																</v8:item>
 															</Title>
 															<Group>Vertical</Group>
-															<Behavior>Usual</Behavior>
 															<ExtendedTooltip name="РасчетЗаказа1РасширеннаяПодсказка" id="3408"/>
 															<ChildItems>
 																<LabelField name="МаксимальныйЗаказ1" id="3409">
@@ -2407,7 +2397,6 @@
 																		</v8:item>
 																	</Title>
 																	<Group>Horizontal</Group>
-																	<Behavior>Usual</Behavior>
 																	<Representation>None</Representation>
 																	<ShowTitle>false</ShowTitle>
 																	<ExtendedTooltip name="ГруппаКЗаказу1РасширеннаяПодсказка" id="3416"/>
@@ -2539,7 +2528,6 @@
 																</v8:item>
 															</Title>
 															<Group>Vertical</Group>
-															<Behavior>Usual</Behavior>
 															<ExtendedTooltip name="Рекомендация1РасширеннаяПодсказка" id="3511"/>
 															<ChildItems>
 																<Pages name="СтраницыРекомендация1" id="3440">
@@ -2668,7 +2656,6 @@
 																</v8:item>
 															</Title>
 															<Group>Vertical</Group>
-															<Behavior>Usual</Behavior>
 															<ExtendedTooltip name="ГрафикФормированияЗаказов4РасширеннаяПодсказка" id="3824"/>
 															<ChildItems>
 																<LabelField name="ДатаЗаказа4" id="3825">
@@ -2773,7 +2760,6 @@
 																</v8:item>
 															</Title>
 															<Group>Vertical</Group>
-															<Behavior>Usual</Behavior>
 															<ExtendedTooltip name="ПараметрыРасчетаЗапасов4РасширеннаяПодсказка" id="3723"/>
 															<ChildItems>
 																<LabelField name="СрокПоставки43" id="4492">
@@ -2822,7 +2808,6 @@
 																</v8:item>
 															</Title>
 															<Group>Vertical</Group>
-															<Behavior>Usual</Behavior>
 															<ExtendedTooltip name="СкладскиеЗапасы4РасширеннаяПодсказка" id="3737"/>
 															<ChildItems>
 																<LabelField name="Остаток4" id="3738">
@@ -2844,7 +2829,6 @@
 																		</v8:item>
 																	</Title>
 																	<Group>Horizontal</Group>
-																	<Behavior>Usual</Behavior>
 																	<Representation>None</Representation>
 																	<ShowTitle>false</ShowTitle>
 																	<ExtendedTooltip name="ГруппаРасчетныйМинимальныйЗапас4РасширеннаяПодсказка" id="3742"/>
@@ -3075,7 +3059,6 @@ x [ Average daily consumption ]</v8:content>
 																				</v8:item>
 																			</ToolTip>
 																			<Group>Vertical</Group>
-																			<Behavior>Usual</Behavior>
 																			<ExtendedTooltip name="РасчетЗаказа4РасширеннаяПодсказка" id="3771"/>
 																			<ChildItems>
 																				<UsualGroup name="ГруппаРасчетныйМаксимальныйЗапас4" id="3772">
@@ -3100,7 +3083,6 @@ x [ Average daily consumption ]</v8:content>
 																						</v8:item>
 																					</ToolTip>
 																					<Group>Horizontal</Group>
-																					<Behavior>Usual</Behavior>
 																					<Representation>None</Representation>
 																					<ShowTitle>false</ShowTitle>
 																					<ExtendedTooltip name="ГруппаРасчетныйМаксимальныйЗапас4РасширеннаяПодсказка" id="3773"/>
@@ -3183,7 +3165,6 @@ x [ Average daily consumption ]
 																						</v8:item>
 																					</Title>
 																					<Group>Horizontal</Group>
-																					<Behavior>Usual</Behavior>
 																					<Representation>None</Representation>
 																					<ShowTitle>false</ShowTitle>
 																					<ExtendedTooltip name="ГруппаКЗаказу4РасширеннаяПодсказка" id="3787"/>
@@ -3351,7 +3332,6 @@ x [ Average daily consumption ]
 																				</v8:item>
 																			</ToolTip>
 																			<Group>Horizontal</Group>
-																			<Behavior>Usual</Behavior>
 																			<ExtendedTooltip name="Рекомендация4РасширеннаяПодсказка" id="3807"/>
 																			<ChildItems>
 																				<PictureDecoration name="КартинкаЗаказать4" id="3812">
@@ -3422,7 +3402,6 @@ x [ Average daily consumption ]
 																				</v8:item>
 																			</ToolTip>
 																			<Group>Horizontal</Group>
-																			<Behavior>Usual</Behavior>
 																			<ExtendedTooltip name="Рекомендация41РасширеннаяПодсказка" id="4472"/>
 																			<ChildItems>
 																				<LabelField name="ТекстРекомендацииНеЗаказывать4" id="4473">
@@ -3473,7 +3452,6 @@ x [ Average daily consumption ]
 																				</v8:item>
 																			</ToolTip>
 																			<Group>Horizontal</Group>
-																			<Behavior>Usual</Behavior>
 																			<ExtendedTooltip name="Рекомендация42РасширеннаяПодсказка" id="4479"/>
 																			<ChildItems>
 																				<PictureDecoration name="КартинкаЗаказатьДефицит4" id="4483">
@@ -3526,7 +3504,6 @@ x [ Average daily consumption ]
 																</v8:item>
 															</Title>
 															<Group>Vertical</Group>
-															<Behavior>Usual</Behavior>
 															<ExtendedTooltip name="ПараметрыРасчетаЗапасов3РасширеннаяПодсказка" id="3699"/>
 															<ChildItems>
 																<LabelField name="СрокПоставки3" id="3700">
@@ -3575,7 +3552,6 @@ x [ Average daily consumption ]
 																</v8:item>
 															</Title>
 															<Group>Vertical</Group>
-															<Behavior>Usual</Behavior>
 															<ExtendedTooltip name="СкладскиеЗапасы3РасширеннаяПодсказка" id="3620"/>
 															<ChildItems>
 																<LabelField name="Остаток3" id="3621">
@@ -3597,7 +3573,6 @@ x [ Average daily consumption ]
 																		</v8:item>
 																	</Title>
 																	<Group>Horizontal</Group>
-																	<Behavior>Usual</Behavior>
 																	<Representation>None</Representation>
 																	<ShowTitle>false</ShowTitle>
 																	<ExtendedTooltip name="ГруппаРасчетныйМинимальныйЗапас3РасширеннаяПодсказка" id="3691"/>
@@ -3791,7 +3766,6 @@ x [ Average daily consumption ]</v8:content>
 																</v8:item>
 															</Title>
 															<Group>Vertical</Group>
-															<Behavior>Usual</Behavior>
 															<ExtendedTooltip name="РасчетЗаказа3РасширеннаяПодсказка" id="3646"/>
 															<ChildItems>
 																<UsualGroup name="ГруппаРасчетныйМаксимальныйЗапас3" id="3709">
@@ -3816,7 +3790,6 @@ x [ Average daily consumption ]</v8:content>
 																		</v8:item>
 																	</ToolTip>
 																	<Group>Horizontal</Group>
-																	<Behavior>Usual</Behavior>
 																	<Representation>None</Representation>
 																	<ShowTitle>false</ShowTitle>
 																	<ExtendedTooltip name="ГруппаРасчетныйМаксимальныйЗапас3РасширеннаяПодсказка" id="3710"/>
@@ -3899,7 +3872,6 @@ x [ Average daily consumption ]</v8:content>
 																		</v8:item>
 																	</Title>
 																	<Group>Horizontal</Group>
-																	<Behavior>Usual</Behavior>
 																	<Representation>None</Representation>
 																	<ShowTitle>false</ShowTitle>
 																	<ExtendedTooltip name="ГруппаКЗаказу3РасширеннаяПодсказка" id="3654"/>
@@ -4049,7 +4021,6 @@ x [ Average daily consumption ]</v8:content>
 																</v8:item>
 															</Title>
 															<Group>Vertical</Group>
-															<Behavior>Usual</Behavior>
 															<ExtendedTooltip name="Рекомендация3РасширеннаяПодсказка" id="3674"/>
 															<ChildItems>
 																<Pages name="СтраницыРекомендация3" id="3675">
@@ -4188,7 +4159,6 @@ x [ Average daily consumption ]</v8:content>
 																</v8:item>
 															</Title>
 															<Group>Vertical</Group>
-															<Behavior>Usual</Behavior>
 															<ExtendedTooltip name="ГрафикФормированияЗаказов2РасширеннаяПодсказка" id="3586"/>
 															<ChildItems>
 																<LabelField name="ДатаЗаказа2" id="3587">
@@ -4284,7 +4254,6 @@ x [ Average daily consumption ]</v8:content>
 																</v8:item>
 															</Title>
 															<Group>Vertical</Group>
-															<Behavior>Usual</Behavior>
 															<ExtendedTooltip name="СкладскиеЗапасы2РасширеннаяПодсказка" id="3515"/>
 															<ChildItems>
 																<LabelField name="Остаток2" id="3516">
@@ -4434,7 +4403,6 @@ x [ Average daily consumption ]</v8:content>
 																</v8:item>
 															</Title>
 															<Group>Vertical</Group>
-															<Behavior>Usual</Behavior>
 															<ExtendedTooltip name="РасчетЗаказа2РасширеннаяПодсказка" id="3541"/>
 															<ChildItems>
 																<LabelField name="МаксимальныйЗаказ2" id="3542">
@@ -4464,7 +4432,6 @@ x [ Average daily consumption ]</v8:content>
 																		</v8:item>
 																	</Title>
 																	<Group>Horizontal</Group>
-																	<Behavior>Usual</Behavior>
 																	<Representation>None</Representation>
 																	<ShowTitle>false</ShowTitle>
 																	<ExtendedTooltip name="ГруппаКЗаказу2РасширеннаяПодсказка" id="3549"/>
@@ -4596,7 +4563,6 @@ x [ Average daily consumption ]</v8:content>
 																</v8:item>
 															</Title>
 															<Group>Vertical</Group>
-															<Behavior>Usual</Behavior>
 															<ExtendedTooltip name="Рекомендация2РасширеннаяПодсказка" id="3569"/>
 															<ChildItems>
 																<Pages name="СтраницыРекомендация2" id="3570">
@@ -4735,7 +4701,6 @@ x [ Average daily consumption ]</v8:content>
 																</v8:item>
 															</Title>
 															<Group>Vertical</Group>
-															<Behavior>Usual</Behavior>
 															<ExtendedTooltip name="ГрафикФормированияЗаказов6РасширеннаяПодсказка" id="4020"/>
 															<ChildItems>
 																<LabelField name="ДатаЗаказа6" id="4021">
@@ -4768,7 +4733,6 @@ x [ Average daily consumption ]</v8:content>
 																</v8:item>
 															</Title>
 															<Group>Vertical</Group>
-															<Behavior>Usual</Behavior>
 															<ExtendedTooltip name="РасчетЗаказа6РасширеннаяПодсказка" id="4369"/>
 															<ChildItems>
 																<LabelField name="Требуется6" id="4365">
@@ -4807,7 +4771,6 @@ x [ Average daily consumption ]</v8:content>
 																		</v8:item>
 																	</Title>
 																	<Group>Horizontal</Group>
-																	<Behavior>Usual</Behavior>
 																	<Representation>None</Representation>
 																	<ShowTitle>false</ShowTitle>
 																	<ExtendedTooltip name="ГруппаКЗаказу6РасширеннаяПодсказка" id="4374"/>
@@ -4881,7 +4844,6 @@ x [ Average daily consumption ]</v8:content>
 																</v8:item>
 															</Title>
 															<Group>Vertical</Group>
-															<Behavior>Usual</Behavior>
 															<ExtendedTooltip name="Рекомендация6РасширеннаяПодсказка" id="4385"/>
 															<ChildItems>
 																<LabelField name="ТекстРекомендацииНеЗаказывать6" id="4398">
@@ -4923,7 +4885,6 @@ x [ Average daily consumption ]</v8:content>
 																</v8:item>
 															</Title>
 															<Group>Vertical</Group>
-															<Behavior>Usual</Behavior>
 															<ExtendedTooltip name="ГрафикФормированияЗаказов9РасширеннаяПодсказка" id="4653"/>
 															<ChildItems>
 																<LabelField name="ДатаПоставки9" id="4669">
@@ -4969,7 +4930,6 @@ x [ Average daily consumption ]</v8:content>
 																</v8:item>
 															</Title>
 															<Group>Vertical</Group>
-															<Behavior>Usual</Behavior>
 															<ExtendedTooltip name="РасчетЗаказа9РасширеннаяПодсказка" id="4626"/>
 															<ChildItems>
 																<LabelField name="Требуется9" id="4627">
@@ -5008,7 +4968,6 @@ x [ Average daily consumption ]</v8:content>
 																		</v8:item>
 																	</Title>
 																	<Group>Horizontal</Group>
-																	<Behavior>Usual</Behavior>
 																	<Representation>None</Representation>
 																	<ShowTitle>false</ShowTitle>
 																	<ExtendedTooltip name="ГруппаКЗаказу9РасширеннаяПодсказка" id="4634"/>
@@ -5082,7 +5041,6 @@ x [ Average daily consumption ]</v8:content>
 																</v8:item>
 															</Title>
 															<Group>Horizontal</Group>
-															<Behavior>Usual</Behavior>
 															<ExtendedTooltip name="Рекомендация9РасширеннаяПодсказка" id="4645"/>
 															<ChildItems>
 																<Pages name="СтраницыРекомендация9" id="4672">
@@ -5221,7 +5179,6 @@ x [ Average daily consumption ]</v8:content>
 																</v8:item>
 															</Title>
 															<Group>Vertical</Group>
-															<Behavior>Usual</Behavior>
 															<ExtendedTooltip name="РасчетЗаказа8РасширеннаяПодсказка" id="4582"/>
 															<ChildItems>
 																<LabelField name="Требуется8" id="4583">
@@ -5262,7 +5219,6 @@ x [ Average daily consumption ]</v8:content>
 																		</v8:item>
 																	</Title>
 																	<Group>Horizontal</Group>
-																	<Behavior>Usual</Behavior>
 																	<Representation>None</Representation>
 																	<ShowTitle>false</ShowTitle>
 																	<ExtendedTooltip name="ГруппаКЗаказу8РасширеннаяПодсказка" id="4590"/>
@@ -5336,7 +5292,6 @@ x [ Average daily consumption ]</v8:content>
 																</v8:item>
 															</Title>
 															<Group>Horizontal</Group>
-															<Behavior>Usual</Behavior>
 															<ExtendedTooltip name="Рекомендация8РасширеннаяПодсказка" id="4601"/>
 															<ChildItems>
 																<PictureDecoration name="КартинкаЗаказать8" id="4602">
@@ -5397,7 +5352,6 @@ x [ Average daily consumption ]</v8:content>
 																</v8:item>
 															</Title>
 															<Group>Vertical</Group>
-															<Behavior>Usual</Behavior>
 															<ExtendedTooltip name="ГрафикФормированияЗаказов7РасширеннаяПодсказка" id="4501"/>
 															<ChildItems>
 																<LabelField name="ДатаЗаказа7" id="4502">
@@ -5459,7 +5413,6 @@ x [ Average daily consumption ]</v8:content>
 																</v8:item>
 															</Title>
 															<Group>Vertical</Group>
-															<Behavior>Usual</Behavior>
 															<ExtendedTooltip name="РасчетЗаказа7РасширеннаяПодсказка" id="4516"/>
 															<ChildItems>
 																<LabelField name="Требуется7" id="4517">
@@ -5498,7 +5451,6 @@ x [ Average daily consumption ]</v8:content>
 																		</v8:item>
 																	</Title>
 																	<Group>Horizontal</Group>
-																	<Behavior>Usual</Behavior>
 																	<Representation>None</Representation>
 																	<ShowTitle>false</ShowTitle>
 																	<ExtendedTooltip name="ГруппаКЗаказу7РасширеннаяПодсказка" id="4524"/>
@@ -5572,7 +5524,6 @@ x [ Average daily consumption ]</v8:content>
 																</v8:item>
 															</Title>
 															<Group>Horizontal</Group>
-															<Behavior>Usual</Behavior>
 															<ExtendedTooltip name="Рекомендация7РасширеннаяПодсказка" id="4535"/>
 															<ChildItems>
 																<Pages name="СтраницыРекомендация7" id="4608">
@@ -5734,7 +5685,6 @@ x [ Average daily consumption ]</v8:content>
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
-									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаИнформационнаяСтрокаРасширеннаяПодсказка" id="4866"/>
@@ -5762,7 +5712,6 @@ x [ Average daily consumption ]</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
-							<Behavior>Usual</Behavior>
 							<ExtendedTooltip name="ГруппаЗаказыКОформлениюExtendedTooltip" id="3062"/>
 							<ChildItems>
 								<Table name="ЗаказыКОформлению" id="833">
@@ -6100,7 +6049,6 @@ in order</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
-							<Behavior>Usual</Behavior>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="КомандыНизШагСоставЗаказаExtendedTooltip" id="3247"/>
 							<ChildItems>
@@ -6379,7 +6327,6 @@ in order</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
-							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаНастройкаФоновыхОперацийРасширеннаяПодсказка" id="4701"/>
@@ -6534,7 +6481,6 @@ in order</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
-							<Behavior>Usual</Behavior>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="КомандыНизШагСформированныеЗаказыExtendedTooltip" id="3265"/>
 							<ChildItems>
@@ -6700,7 +6646,6 @@ in order</v8:content>
 													</v8:item>
 												</Title>
 												<Group>Vertical</Group>
-												<Behavior>Usual</Behavior>
 												<Representation>NormalSeparation</Representation>
 												<ExtendedTooltip name="ГруппаОтборыПотребностьExtendedTooltip" id="2931"/>
 												<ChildItems>
@@ -6880,7 +6825,6 @@ in order</v8:content>
 													</v8:item>
 												</Title>
 												<Group>Vertical</Group>
-												<Behavior>Usual</Behavior>
 												<Representation>NormalSeparation</Representation>
 												<ExtendedTooltip name="ГруппаОтборыОбеспечениеExtendedTooltip" id="2939"/>
 												<ChildItems>
@@ -7097,7 +7041,6 @@ in order</v8:content>
 									</v8:item>
 								</Title>
 								<Group>Vertical</Group>
-								<Behavior>Usual</Behavior>
 								<Representation>NormalSeparation</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ГруппаПараметрыОбеспеченияПотребностейExtendedTooltip" id="2957"/>
@@ -7126,7 +7069,6 @@ in order</v8:content>
 									</v8:item>
 								</Title>
 								<Group>Vertical</Group>
-								<Behavior>Usual</Behavior>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ГруппаЛинияШаг1ExtendedTooltip" id="2960"/>
 								<ChildItems>
@@ -7187,7 +7129,6 @@ in order</v8:content>
 									</v8:item>
 								</Title>
 								<Group>Horizontal</Group>
-								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="КомандыШагНастройкаСпособовОбеспеченияExtendedTooltip" id="2966"/>
@@ -7462,7 +7403,6 @@ in order</v8:content>
 									</v8:item>
 								</Title>
 								<Group>Horizontal</Group>
-								<Behavior>Usual</Behavior>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="КомандыШагНастройкаExtendedTooltip" id="2986"/>
 								<ChildItems>
@@ -7929,7 +7869,6 @@ in order</v8:content>
 									</v8:item>
 								</Title>
 								<Group>Vertical</Group>
-								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ГруппаСРазделителемРасширеннаяПодсказка" id="4868"/>
@@ -7946,7 +7885,6 @@ in order</v8:content>
 											</v8:item>
 										</Title>
 										<Group>Horizontal</Group>
-										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
 										<ExtendedTooltip name="ГруппаТаблицаПотребностейИПанельРекомендацийРасширеннаяПодсказка" id="4460"/>
@@ -8825,7 +8763,6 @@ in order</v8:content>
 																	</v8:item>
 																</Title>
 																<Group>Vertical</Group>
-																<Behavior>Usual</Behavior>
 																<ExtendedTooltip name="СкладскиеЗапасы1РасширеннаяПодсказка" id="3379"/>
 																<ChildItems>
 																	<LabelField name="Остаток1" id="3380">
@@ -8975,7 +8912,6 @@ in order</v8:content>
 																	</v8:item>
 																</Title>
 																<Group>Vertical</Group>
-																<Behavior>Usual</Behavior>
 																<ExtendedTooltip name="РасчетЗаказа1РасширеннаяПодсказка" id="3408"/>
 																<ChildItems>
 																	<LabelField name="МаксимальныйЗаказ1" id="3409">
@@ -9015,7 +8951,6 @@ in order</v8:content>
 																			</v8:item>
 																		</Title>
 																		<Group>Horizontal</Group>
-																		<Behavior>Usual</Behavior>
 																		<Representation>None</Representation>
 																		<ShowTitle>false</ShowTitle>
 																		<ExtendedTooltip name="ГруппаКЗаказу1РасширеннаяПодсказка" id="3416"/>
@@ -9147,7 +9082,6 @@ in order</v8:content>
 																	</v8:item>
 																</Title>
 																<Group>Vertical</Group>
-																<Behavior>Usual</Behavior>
 																<ExtendedTooltip name="Рекомендация1РасширеннаяПодсказка" id="3511"/>
 																<ChildItems>
 																	<Pages name="СтраницыРекомендация1" id="3440">
@@ -9276,7 +9210,6 @@ in order</v8:content>
 																	</v8:item>
 																</Title>
 																<Group>Vertical</Group>
-																<Behavior>Usual</Behavior>
 																<ExtendedTooltip name="ГрафикФормированияЗаказов4РасширеннаяПодсказка" id="3824"/>
 																<ChildItems>
 																	<LabelField name="ДатаЗаказа4" id="3825">
@@ -9381,7 +9314,6 @@ in order</v8:content>
 																	</v8:item>
 																</Title>
 																<Group>Vertical</Group>
-																<Behavior>Usual</Behavior>
 																<ExtendedTooltip name="ПараметрыРасчетаЗапасов4РасширеннаяПодсказка" id="3723"/>
 																<ChildItems>
 																	<LabelField name="СрокПоставки43" id="4492">
@@ -9430,7 +9362,6 @@ in order</v8:content>
 																	</v8:item>
 																</Title>
 																<Group>Vertical</Group>
-																<Behavior>Usual</Behavior>
 																<ExtendedTooltip name="СкладскиеЗапасы4РасширеннаяПодсказка" id="3737"/>
 																<ChildItems>
 																	<LabelField name="Остаток4" id="3738">
@@ -9452,7 +9383,6 @@ in order</v8:content>
 																			</v8:item>
 																		</Title>
 																		<Group>Horizontal</Group>
-																		<Behavior>Usual</Behavior>
 																		<Representation>None</Representation>
 																		<ShowTitle>false</ShowTitle>
 																		<ExtendedTooltip name="ГруппаРасчетныйМинимальныйЗапас4РасширеннаяПодсказка" id="3742"/>
@@ -9683,7 +9613,6 @@ x [ Average daily consumption ]</v8:content>
 																					</v8:item>
 																				</ToolTip>
 																				<Group>Vertical</Group>
-																				<Behavior>Usual</Behavior>
 																				<ExtendedTooltip name="РасчетЗаказа4РасширеннаяПодсказка" id="3771"/>
 																				<ChildItems>
 																					<UsualGroup name="ГруппаРасчетныйМаксимальныйЗапас4" id="3772">
@@ -9708,7 +9637,6 @@ x [ Average daily consumption ]</v8:content>
 																							</v8:item>
 																						</ToolTip>
 																						<Group>Horizontal</Group>
-																						<Behavior>Usual</Behavior>
 																						<Representation>None</Representation>
 																						<ShowTitle>false</ShowTitle>
 																						<ExtendedTooltip name="ГруппаРасчетныйМаксимальныйЗапас4РасширеннаяПодсказка" id="3773"/>
@@ -9791,7 +9719,6 @@ x [ Average daily consumption ]
 																							</v8:item>
 																						</Title>
 																						<Group>Horizontal</Group>
-																						<Behavior>Usual</Behavior>
 																						<Representation>None</Representation>
 																						<ShowTitle>false</ShowTitle>
 																						<ExtendedTooltip name="ГруппаКЗаказу4РасширеннаяПодсказка" id="3787"/>
@@ -9959,7 +9886,6 @@ x [ Average daily consumption ]
 																					</v8:item>
 																				</ToolTip>
 																				<Group>Horizontal</Group>
-																				<Behavior>Usual</Behavior>
 																				<ExtendedTooltip name="Рекомендация4РасширеннаяПодсказка" id="3807"/>
 																				<ChildItems>
 																					<PictureDecoration name="КартинкаЗаказать4" id="3812">
@@ -10030,7 +9956,6 @@ x [ Average daily consumption ]
 																					</v8:item>
 																				</ToolTip>
 																				<Group>Horizontal</Group>
-																				<Behavior>Usual</Behavior>
 																				<ExtendedTooltip name="Рекомендация41РасширеннаяПодсказка" id="4472"/>
 																				<ChildItems>
 																					<LabelField name="ТекстРекомендацииНеЗаказывать4" id="4473">
@@ -10081,7 +10006,6 @@ x [ Average daily consumption ]
 																					</v8:item>
 																				</ToolTip>
 																				<Group>Horizontal</Group>
-																				<Behavior>Usual</Behavior>
 																				<ExtendedTooltip name="Рекомендация42РасширеннаяПодсказка" id="4479"/>
 																				<ChildItems>
 																					<PictureDecoration name="КартинкаЗаказатьДефицит4" id="4483">
@@ -10134,7 +10058,6 @@ x [ Average daily consumption ]
 																	</v8:item>
 																</Title>
 																<Group>Vertical</Group>
-																<Behavior>Usual</Behavior>
 																<ExtendedTooltip name="ПараметрыРасчетаЗапасов3РасширеннаяПодсказка" id="3699"/>
 																<ChildItems>
 																	<LabelField name="СрокПоставки3" id="3700">
@@ -10183,7 +10106,6 @@ x [ Average daily consumption ]
 																	</v8:item>
 																</Title>
 																<Group>Vertical</Group>
-																<Behavior>Usual</Behavior>
 																<ExtendedTooltip name="СкладскиеЗапасы3РасширеннаяПодсказка" id="3620"/>
 																<ChildItems>
 																	<LabelField name="Остаток3" id="3621">
@@ -10205,7 +10127,6 @@ x [ Average daily consumption ]
 																			</v8:item>
 																		</Title>
 																		<Group>Horizontal</Group>
-																		<Behavior>Usual</Behavior>
 																		<Representation>None</Representation>
 																		<ShowTitle>false</ShowTitle>
 																		<ExtendedTooltip name="ГруппаРасчетныйМинимальныйЗапас3РасширеннаяПодсказка" id="3691"/>
@@ -10399,7 +10320,6 @@ x [ Average daily consumption ]</v8:content>
 																	</v8:item>
 																</Title>
 																<Group>Vertical</Group>
-																<Behavior>Usual</Behavior>
 																<ExtendedTooltip name="РасчетЗаказа3РасширеннаяПодсказка" id="3646"/>
 																<ChildItems>
 																	<UsualGroup name="ГруппаРасчетныйМаксимальныйЗапас3" id="3709">
@@ -10424,7 +10344,6 @@ x [ Average daily consumption ]</v8:content>
 																			</v8:item>
 																		</ToolTip>
 																		<Group>Horizontal</Group>
-																		<Behavior>Usual</Behavior>
 																		<Representation>None</Representation>
 																		<ShowTitle>false</ShowTitle>
 																		<ExtendedTooltip name="ГруппаРасчетныйМаксимальныйЗапас3РасширеннаяПодсказка" id="3710"/>
@@ -10507,7 +10426,6 @@ x [ Average daily consumption ]</v8:content>
 																			</v8:item>
 																		</Title>
 																		<Group>Horizontal</Group>
-																		<Behavior>Usual</Behavior>
 																		<Representation>None</Representation>
 																		<ShowTitle>false</ShowTitle>
 																		<ExtendedTooltip name="ГруппаКЗаказу3РасширеннаяПодсказка" id="3654"/>
@@ -10657,7 +10575,6 @@ x [ Average daily consumption ]</v8:content>
 																	</v8:item>
 																</Title>
 																<Group>Vertical</Group>
-																<Behavior>Usual</Behavior>
 																<ExtendedTooltip name="Рекомендация3РасширеннаяПодсказка" id="3674"/>
 																<ChildItems>
 																	<Pages name="СтраницыРекомендация3" id="3675">
@@ -10796,7 +10713,6 @@ x [ Average daily consumption ]</v8:content>
 																	</v8:item>
 																</Title>
 																<Group>Vertical</Group>
-																<Behavior>Usual</Behavior>
 																<ExtendedTooltip name="ГрафикФормированияЗаказов2РасширеннаяПодсказка" id="3586"/>
 																<ChildItems>
 																	<LabelField name="ДатаЗаказа2" id="3587">
@@ -10892,7 +10808,6 @@ x [ Average daily consumption ]</v8:content>
 																	</v8:item>
 																</Title>
 																<Group>Vertical</Group>
-																<Behavior>Usual</Behavior>
 																<ExtendedTooltip name="СкладскиеЗапасы2РасширеннаяПодсказка" id="3515"/>
 																<ChildItems>
 																	<LabelField name="Остаток2" id="3516">
@@ -11042,7 +10957,6 @@ x [ Average daily consumption ]</v8:content>
 																	</v8:item>
 																</Title>
 																<Group>Vertical</Group>
-																<Behavior>Usual</Behavior>
 																<ExtendedTooltip name="РасчетЗаказа2РасширеннаяПодсказка" id="3541"/>
 																<ChildItems>
 																	<LabelField name="МаксимальныйЗаказ2" id="3542">
@@ -11072,7 +10986,6 @@ x [ Average daily consumption ]</v8:content>
 																			</v8:item>
 																		</Title>
 																		<Group>Horizontal</Group>
-																		<Behavior>Usual</Behavior>
 																		<Representation>None</Representation>
 																		<ShowTitle>false</ShowTitle>
 																		<ExtendedTooltip name="ГруппаКЗаказу2РасширеннаяПодсказка" id="3549"/>
@@ -11204,7 +11117,6 @@ x [ Average daily consumption ]</v8:content>
 																	</v8:item>
 																</Title>
 																<Group>Vertical</Group>
-																<Behavior>Usual</Behavior>
 																<ExtendedTooltip name="Рекомендация2РасширеннаяПодсказка" id="3569"/>
 																<ChildItems>
 																	<Pages name="СтраницыРекомендация2" id="3570">
@@ -11343,7 +11255,6 @@ x [ Average daily consumption ]</v8:content>
 																	</v8:item>
 																</Title>
 																<Group>Vertical</Group>
-																<Behavior>Usual</Behavior>
 																<ExtendedTooltip name="ГрафикФормированияЗаказов6РасширеннаяПодсказка" id="4020"/>
 																<ChildItems>
 																	<LabelField name="ДатаЗаказа6" id="4021">
@@ -11376,7 +11287,6 @@ x [ Average daily consumption ]</v8:content>
 																	</v8:item>
 																</Title>
 																<Group>Vertical</Group>
-																<Behavior>Usual</Behavior>
 																<ExtendedTooltip name="РасчетЗаказа6РасширеннаяПодсказка" id="4369"/>
 																<ChildItems>
 																	<LabelField name="Требуется6" id="4365">
@@ -11415,7 +11325,6 @@ x [ Average daily consumption ]</v8:content>
 																			</v8:item>
 																		</Title>
 																		<Group>Horizontal</Group>
-																		<Behavior>Usual</Behavior>
 																		<Representation>None</Representation>
 																		<ShowTitle>false</ShowTitle>
 																		<ExtendedTooltip name="ГруппаКЗаказу6РасширеннаяПодсказка" id="4374"/>
@@ -11489,7 +11398,6 @@ x [ Average daily consumption ]</v8:content>
 																	</v8:item>
 																</Title>
 																<Group>Vertical</Group>
-																<Behavior>Usual</Behavior>
 																<ExtendedTooltip name="Рекомендация6РасширеннаяПодсказка" id="4385"/>
 																<ChildItems>
 																	<LabelField name="ТекстРекомендацииНеЗаказывать6" id="4398">
@@ -11531,7 +11439,6 @@ x [ Average daily consumption ]</v8:content>
 																	</v8:item>
 																</Title>
 																<Group>Vertical</Group>
-																<Behavior>Usual</Behavior>
 																<ExtendedTooltip name="ГрафикФормированияЗаказов9РасширеннаяПодсказка" id="4653"/>
 																<ChildItems>
 																	<LabelField name="ДатаПоставки9" id="4669">
@@ -11577,7 +11484,6 @@ x [ Average daily consumption ]</v8:content>
 																	</v8:item>
 																</Title>
 																<Group>Vertical</Group>
-																<Behavior>Usual</Behavior>
 																<ExtendedTooltip name="РасчетЗаказа9РасширеннаяПодсказка" id="4626"/>
 																<ChildItems>
 																	<LabelField name="Требуется9" id="4627">
@@ -11616,7 +11522,6 @@ x [ Average daily consumption ]</v8:content>
 																			</v8:item>
 																		</Title>
 																		<Group>Horizontal</Group>
-																		<Behavior>Usual</Behavior>
 																		<Representation>None</Representation>
 																		<ShowTitle>false</ShowTitle>
 																		<ExtendedTooltip name="ГруппаКЗаказу9РасширеннаяПодсказка" id="4634"/>
@@ -11690,7 +11595,6 @@ x [ Average daily consumption ]</v8:content>
 																	</v8:item>
 																</Title>
 																<Group>Horizontal</Group>
-																<Behavior>Usual</Behavior>
 																<ExtendedTooltip name="Рекомендация9РасширеннаяПодсказка" id="4645"/>
 																<ChildItems>
 																	<Pages name="СтраницыРекомендация9" id="4672">
@@ -11829,7 +11733,6 @@ x [ Average daily consumption ]</v8:content>
 																	</v8:item>
 																</Title>
 																<Group>Vertical</Group>
-																<Behavior>Usual</Behavior>
 																<ExtendedTooltip name="РасчетЗаказа8РасширеннаяПодсказка" id="4582"/>
 																<ChildItems>
 																	<LabelField name="Требуется8" id="4583">
@@ -11870,7 +11773,6 @@ x [ Average daily consumption ]</v8:content>
 																			</v8:item>
 																		</Title>
 																		<Group>Horizontal</Group>
-																		<Behavior>Usual</Behavior>
 																		<Representation>None</Representation>
 																		<ShowTitle>false</ShowTitle>
 																		<ExtendedTooltip name="ГруппаКЗаказу8РасширеннаяПодсказка" id="4590"/>
@@ -11944,7 +11846,6 @@ x [ Average daily consumption ]</v8:content>
 																	</v8:item>
 																</Title>
 																<Group>Horizontal</Group>
-																<Behavior>Usual</Behavior>
 																<ExtendedTooltip name="Рекомендация8РасширеннаяПодсказка" id="4601"/>
 																<ChildItems>
 																	<PictureDecoration name="КартинкаЗаказать8" id="4602">
@@ -12005,7 +11906,6 @@ x [ Average daily consumption ]</v8:content>
 																	</v8:item>
 																</Title>
 																<Group>Vertical</Group>
-																<Behavior>Usual</Behavior>
 																<ExtendedTooltip name="ГрафикФормированияЗаказов7РасширеннаяПодсказка" id="4501"/>
 																<ChildItems>
 																	<LabelField name="ДатаЗаказа7" id="4502">
@@ -12067,7 +11967,6 @@ x [ Average daily consumption ]</v8:content>
 																	</v8:item>
 																</Title>
 																<Group>Vertical</Group>
-																<Behavior>Usual</Behavior>
 																<ExtendedTooltip name="РасчетЗаказа7РасширеннаяПодсказка" id="4516"/>
 																<ChildItems>
 																	<LabelField name="Требуется7" id="4517">
@@ -12106,7 +12005,6 @@ x [ Average daily consumption ]</v8:content>
 																			</v8:item>
 																		</Title>
 																		<Group>Horizontal</Group>
-																		<Behavior>Usual</Behavior>
 																		<Representation>None</Representation>
 																		<ShowTitle>false</ShowTitle>
 																		<ExtendedTooltip name="ГруппаКЗаказу7РасширеннаяПодсказка" id="4524"/>
@@ -12180,7 +12078,6 @@ x [ Average daily consumption ]</v8:content>
 																	</v8:item>
 																</Title>
 																<Group>Horizontal</Group>
-																<Behavior>Usual</Behavior>
 																<ExtendedTooltip name="Рекомендация7РасширеннаяПодсказка" id="4535"/>
 																<ChildItems>
 																	<Pages name="СтраницыРекомендация7" id="4608">
@@ -12342,7 +12239,6 @@ x [ Average daily consumption ]</v8:content>
 											</v8:item>
 										</Title>
 										<Group>Vertical</Group>
-										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
 										<ExtendedTooltip name="ГруппаИнформационнаяСтрокаРасширеннаяПодсказка" id="4866"/>
@@ -12370,7 +12266,6 @@ x [ Average daily consumption ]</v8:content>
 									</v8:item>
 								</Title>
 								<Group>Vertical</Group>
-								<Behavior>Usual</Behavior>
 								<ExtendedTooltip name="ГруппаЗаказыКОформлениюExtendedTooltip" id="3062"/>
 								<ChildItems>
 									<Table name="ЗаказыКОформлению" id="833">
@@ -12708,7 +12603,6 @@ in order</v8:content>
 									</v8:item>
 								</Title>
 								<Group>Horizontal</Group>
-								<Behavior>Usual</Behavior>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="КомандыНизШагСоставЗаказаExtendedTooltip" id="3247"/>
 								<ChildItems>
@@ -12987,7 +12881,6 @@ in order</v8:content>
 									</v8:item>
 								</Title>
 								<Group>Vertical</Group>
-								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ГруппаНастройкаФоновыхОперацийРасширеннаяПодсказка" id="4701"/>
@@ -13142,7 +13035,6 @@ in order</v8:content>
 									</v8:item>
 								</Title>
 								<Group>Horizontal</Group>
-								<Behavior>Usual</Behavior>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="КомандыНизШагСформированныеЗаказыExtendedTooltip" id="3265"/>
 								<ChildItems>

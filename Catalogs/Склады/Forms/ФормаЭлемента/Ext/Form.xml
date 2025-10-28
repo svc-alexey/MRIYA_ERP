@@ -201,14 +201,12 @@
 	<ChildItems>
 		<UsualGroup name="ГруппаШапка" id="79">
 			<Group>Horizontal</Group>
-			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаШапкаExtendedTooltip" id="199"/>
 			<ChildItems>
 				<UsualGroup name="ГруппаШапкаЛево" id="310">
 					<Group>Vertical</Group>
-					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаШапкаЛевоРасширеннаяПодсказка" id="311"/>
@@ -226,7 +224,6 @@
 				</UsualGroup>
 				<UsualGroup name="ГруппаШапкаПраво" id="312">
 					<Group>Vertical</Group>
-					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаШапкаПравоРасширеннаяПодсказка" id="313"/>
@@ -268,21 +265,18 @@
 						<UsualGroup name="ОсновноеЛево" id="68">
 							<Group>Vertical</Group>
 							<HorizontalSpacing>Double</HorizontalSpacing>
-							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ОсновноеЛевоExtendedTooltip" id="209"/>
 							<ChildItems>
 								<UsualGroup name="ГруппаТипСклада" id="127">
 									<Group>Vertical</Group>
-									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаТипСкладаExtendedTooltip" id="210"/>
 									<ChildItems>
 										<UsualGroup name="ГруппаТипСкладаКолонки" id="114">
 											<Group>Vertical</Group>
-											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаТипСкладаКолонкиExtendedTooltip" id="212"/>
@@ -371,7 +365,6 @@
 									<EnableContentChange>true</EnableContentChange>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 									<Group>Horizontal</Group>
-									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаЦеховаяКладоваяРасширеннаяПодсказка" id="425">
@@ -442,7 +435,6 @@
 										</v8:item>
 									</ToolTip>
 									<Group>Vertical</Group>
-									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаСборкиЗаказовИКурьерскойДоставкиРасширеннаяПодсказка" id="440"/>
@@ -479,7 +471,6 @@
 								</UsualGroup>
 								<UsualGroup name="ГруппаОтветХранение" id="387">
 									<Group>Vertical</Group>
-									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаОтветХранениеРасширеннаяПодсказка" id="388"/>
@@ -516,7 +507,6 @@
 								</UsualGroup>
 								<UsualGroup name="ВидыЦенОтступ" id="128">
 									<Group>Vertical</Group>
-									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ВидыЦенОтступExtendedTooltip" id="223"/>
@@ -540,7 +530,6 @@
 																</v8:item>
 															</Title>
 															<Group>Vertical</Group>
-															<Behavior>Usual</Behavior>
 															<Representation>NormalSeparation</Representation>
 															<ExtendedTooltip name="ВидыЦенExtendedTooltip" id="224"/>
 															<ChildItems>
@@ -556,7 +545,6 @@
 																		</v8:item>
 																	</Title>
 																	<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-																	<Behavior>Usual</Behavior>
 																	<Representation>None</Representation>
 																	<ExtendedTooltip name="ИсточникИнформацииРасширеннаяПодсказка" id="418">
 																		<AutoMaxWidth>false</AutoMaxWidth>
@@ -611,7 +599,6 @@
 																		</v8:item>
 																	</Title>
 																	<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-																	<Behavior>Usual</Behavior>
 																	<Representation>None</Representation>
 																	<ExtendedTooltip name="ВидЦеныРасширеннаяПодсказка" id="420">
 																		<AutoMaxWidth>false</AutoMaxWidth>
@@ -646,7 +633,6 @@
 																<UsualGroup name="ГруппаРозничныйВидЦены" id="141">
 																	<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 																	<Group>Vertical</Group>
-																	<Behavior>Usual</Behavior>
 																	<Representation>None</Representation>
 																	<United>false</United>
 																	<ShowTitle>false</ShowTitle>
@@ -674,14 +660,12 @@
 																				</v8:item>
 																			</ToolTip>
 																			<Group>Vertical</Group>
-																			<Behavior>Usual</Behavior>
 																			<Representation>None</Representation>
 																			<ShowTitle>false</ShowTitle>
 																			<ExtendedTooltip name="ГруппаРозничныйВидЦеныСкладРасширеннаяПодсказка" id="476"/>
 																			<ChildItems>
 																				<UsualGroup name="ГруппаРозничныйВидЦеныГориз" id="456">
 																					<Group>AlwaysHorizontal</Group>
-																					<Behavior>Usual</Behavior>
 																					<Representation>None</Representation>
 																					<ShowTitle>false</ShowTitle>
 																					<ExtendedTooltip name="ГруппаРозничныйВидЦеныГоризРасширеннаяПодсказка" id="457"/>
@@ -743,7 +727,6 @@
 																				<UsualGroup name="ГруппаИндивидуальныйВидЦены" id="442">
 																					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 																					<Group>Vertical</Group>
-																					<Behavior>Usual</Behavior>
 																					<Representation>None</Representation>
 																					<United>false</United>
 																					<ShowTitle>false</ShowTitle>
@@ -751,7 +734,6 @@
 																					<ChildItems>
 																						<UsualGroup name="ГруппаИндивидуальныйВидЦеныГориз" id="458">
 																							<Group>AlwaysHorizontal</Group>
-																							<Behavior>Usual</Behavior>
 																							<Representation>None</Representation>
 																							<ShowTitle>false</ShowTitle>
 																							<ExtendedTooltip name="ГруппаИндивидуальныйВидЦеныГоризРасширеннаяПодсказка" id="459"/>
@@ -812,7 +794,6 @@
 																				</v8:item>
 																			</ToolTip>
 																			<Group>AlwaysHorizontal</Group>
-																			<Behavior>Usual</Behavior>
 																			<ShowTitle>false</ShowTitle>
 																			<ExtendedTooltip name="ГруппаРозничныйВидЦеныФорматМагазинаРасширеннаяПодсказка" id="478"/>
 																			<ChildItems>
@@ -844,7 +825,6 @@
 																						</v8:item>
 																					</ToolTip>
 																					<Group>AlwaysHorizontal</Group>
-																					<Behavior>Usual</Behavior>
 																					<Representation>None</Representation>
 																					<ExtendedTooltip name="ГруппаРозничныеЦеныИнформацияГоризРасширеннаяПодсказка" id="480"/>
 																					<ChildItems>
@@ -861,7 +841,6 @@
 																							</Title>
 																							<TitleTextColor>style:FormTextColor</TitleTextColor>
 																							<Group>Vertical</Group>
-																							<Behavior>Usual</Behavior>
 																							<Representation>None</Representation>
 																							<ShowTitle>false</ShowTitle>
 																							<ExtendedTooltip name="Группа1РасширеннаяПодсказка1" id="485"/>
@@ -943,7 +922,6 @@
 															</ToolTip>
 															<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 															<Group>Vertical</Group>
-															<Behavior>Usual</Behavior>
 															<Representation>None</Representation>
 															<United>false</United>
 															<ExtendedTooltip name="ОдинВидЦеныРасширеннаяПодсказка" id="356"/>
@@ -1010,7 +988,6 @@
 						<UsualGroup name="ОсновноеПраво" id="69">
 							<Group>Vertical</Group>
 							<HorizontalSpacing>Double</HorizontalSpacing>
-							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ОсновноеПравоExtendedTooltip" id="244"/>
@@ -1018,7 +995,6 @@
 								<UsualGroup name="ГруппаПодразделение" id="36">
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 									<Group>Vertical</Group>
-									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаПодразделениеExtendedTooltip" id="204">
@@ -1054,7 +1030,6 @@
 								</InputField>
 								<UsualGroup name="ГруппаМОЛОтступ" id="308">
 									<Group>Vertical</Group>
-									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ExtendedTooltip name="ГруппаМОЛОтступРасширеннаяПодсказка" id="309"/>
 									<ChildItems>
@@ -1070,7 +1045,6 @@
 												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
-											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ExtendedTooltip name="ГруппаМОЛExtendedTooltip" id="245"/>
 											<ChildItems>
@@ -1127,7 +1101,6 @@
 										</v8:item>
 									</ToolTip>
 									<Group>Vertical</Group>
-									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ExtendedTooltip name="КонтрольОтступExtendedTooltip" id="232"/>
 									<ChildItems>
@@ -1143,14 +1116,12 @@
 												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
-											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ChildItemsWidth>LeftWide</ChildItemsWidth>
 											<ExtendedTooltip name="КонтрольExtendedTooltip" id="233"/>
 											<ChildItems>
 												<UsualGroup name="ГруппаКонтролироватьКонтролироватьСвободныеОстатки" id="498">
 													<Group>Horizontal</Group>
-													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ChildItemsWidth>LeftWide</ChildItemsWidth>
 													<ShowTitle>false</ShowTitle>
@@ -1225,7 +1196,6 @@
 								</UsualGroup>
 								<UsualGroup name="АссортиментОтступ" id="394">
 									<Group>Vertical</Group>
-									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ExtendedTooltip name="АссортиментОтступРасширеннаяПодсказка" id="395"/>
 									<ChildItems>
@@ -1241,7 +1211,6 @@
 												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
-											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ExtendedTooltip name="ГруппаАссортиментExtendedTooltip" id="220"/>
 											<ChildItems>
@@ -1268,7 +1237,6 @@
 												</LabelField>
 												<UsualGroup name="ГруппаФорматМагазина" id="331">
 													<Group>Horizontal</Group>
-													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаФорматМагазинаРасширеннаяПодсказка" id="332"/>
@@ -1311,7 +1279,6 @@
 					<ChildItems>
 						<UsualGroup name="ОрдернаяСхемаЛево" id="304">
 							<Group>Vertical</Group>
-							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ОрдернаяСхемаЛевоРасширеннаяПодсказка" id="305"/>
@@ -1328,13 +1295,11 @@
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
-									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ExtendedTooltip name="ИспользованиеОрдернойСхемыExtendedTooltip" id="249"/>
 									<ChildItems>
 										<UsualGroup name="ГруппаДатаНачалаОрдернойСхемыПриПоступлении" id="166">
 											<Group>Horizontal</Group>
-											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаДатаНачалаОрдернойСхемыПриПоступленииExtendedTooltip" id="250"/>
@@ -1398,7 +1363,6 @@
 										</UsualGroup>
 										<UsualGroup name="ГруппаИспользоватьОрдернуюСхемуПриПоступлении" id="147">
 											<Group>Horizontal</Group>
-											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаИспользоватьОрдернуюСхемуПриПоступленииExtendedTooltip" id="253"/>
@@ -1428,7 +1392,6 @@
 										</UsualGroup>
 										<UsualGroup name="ГруппаДатаНачалаОрдернойСхемыПриОтгрузке" id="167">
 											<Group>Horizontal</Group>
-											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаДатаНачалаОрдернойСхемыПриОтгрузкеExtendedTooltip" id="256"/>
@@ -1492,7 +1455,6 @@
 										</UsualGroup>
 										<UsualGroup name="ГруппаИспользоватьОрдернуюСхемуПриОтгрузке" id="87">
 											<Group>Horizontal</Group>
-											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаИспользоватьОрдернуюСхемуПриОтгрузкеExtendedTooltip" id="259"/>
@@ -1504,7 +1466,6 @@
 												</LabelDecoration>
 												<UsualGroup name="ГруппаНачинатьОтгрузкуПослеФормированияЗаданияНаПеревозку" id="102">
 													<Group>Vertical</Group>
-													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаНачинатьОтгрузкуПослеФормированияЗаданияНаПеревозкуExtendedTooltip" id="261"/>
@@ -1540,7 +1501,6 @@
 														</CheckBoxField>
 														<UsualGroup name="ГруппаДоставка" id="148">
 															<Group>Vertical</Group>
-															<Behavior>Usual</Behavior>
 															<Representation>None</Representation>
 															<ShowTitle>false</ShowTitle>
 															<ExtendedTooltip name="ГруппаДоставкаExtendedTooltip" id="264"/>
@@ -1629,7 +1589,6 @@
 										</UsualGroup>
 										<UsualGroup name="ГруппаДатаНачалаОрдернойСхемыПриОтраженииИзлишковНедостач" id="168">
 											<Group>Horizontal</Group>
-											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаДатаНачалаОрдернойСхемыПриОтраженииИзлишковНедостачExtendedTooltip" id="271"/>
@@ -1694,14 +1653,12 @@
 										</UsualGroup>
 										<UsualGroup name="ГруппаИспользоватьСтатусыПересчетовТоваров" id="399">
 											<Group>Horizontal</Group>
-											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаИспользоватьСтатусыПересчетовТоваровРасширеннаяПодсказка" id="400"/>
 											<ChildItems>
 												<UsualGroup name="ГруппаИспользоватьСтатусыПересчетовТоваровОтступ" id="401">
 													<Group>Vertical</Group>
-													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаИспользоватьСтатусыПересчетовТоваровОтступРасширеннаяПодсказка" id="402"/>
@@ -1743,7 +1700,6 @@
 								</UsualGroup>
 								<UsualGroup name="ГруппаКонтрольОперативныхОстатков" id="323">
 									<Group>Vertical</Group>
-									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаКонтрольОперативныхОстатковРасширеннаяПодсказка" id="324"/>
@@ -1760,7 +1716,6 @@
 						</UsualGroup>
 						<UsualGroup name="ОрдернаяСхемаПраво" id="306">
 							<Group>Vertical</Group>
-							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ОрдернаяСхемаПравоРасширеннаяПодсказка" id="307"/>
@@ -1778,13 +1733,11 @@
 									</Title>
 									<Height>4</Height>
 									<Group>Vertical</Group>
-									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ExtendedTooltip name="ДелениеСкладаExtendedTooltip" id="275"/>
 									<ChildItems>
 										<UsualGroup name="ГруппаИспользоватьСкладскиеПомещения" id="143">
 											<Group>Vertical</Group>
-											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаИспользоватьСкладскиеПомещенияExtendedTooltip" id="276"/>
@@ -1792,7 +1745,6 @@
 												<UsualGroup name="ГруппаИспользоватьСкладскиеПомещенияФлагДата" id="175">
 													<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 													<Group>Horizontal</Group>
-													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаИспользоватьСкладскиеПомещенияФлагДатаExtendedTooltip" id="277">
@@ -1898,7 +1850,6 @@ All inventory counts must be documented before utilizing the warerooms.</v8:cont
 										<UsualGroup name="ГруппаНастройкаАдресногоХранения" id="415">
 											<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 											<Group>Horizontal</Group>
-											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаНастройкаАдресногоХраненияРасширеннаяПодсказка" id="416"/>
@@ -2010,7 +1961,6 @@ All inventory counts must be documented before utilizing the warerooms.</v8:cont
 										</LabelDecoration>
 										<UsualGroup name="ГруппаДополнительныеНастройкиАдресныхСкладов" id="144">
 											<Group>Vertical</Group>
-											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаДополнительныеНастройкиАдресныхСкладовExtendedTooltip" id="294"/>
@@ -2307,14 +2257,12 @@ All inventory counts must be documented before utilizing the warerooms.</v8:cont
 		<ChildItems>
 			<UsualGroup name="ГруппаШапка" id="79">
 				<Group>Horizontal</Group>
-				<Behavior>Usual</Behavior>
 				<Representation>None</Representation>
 				<ShowTitle>false</ShowTitle>
 				<ExtendedTooltip name="ГруппаШапкаExtendedTooltip" id="199"/>
 				<ChildItems>
 					<UsualGroup name="ГруппаШапкаЛево" id="310">
 						<Group>Vertical</Group>
-						<Behavior>Usual</Behavior>
 						<Representation>None</Representation>
 						<ShowTitle>false</ShowTitle>
 						<ExtendedTooltip name="ГруппаШапкаЛевоРасширеннаяПодсказка" id="311"/>
@@ -2332,7 +2280,6 @@ All inventory counts must be documented before utilizing the warerooms.</v8:cont
 					</UsualGroup>
 					<UsualGroup name="ГруппаШапкаПраво" id="312">
 						<Group>Vertical</Group>
-						<Behavior>Usual</Behavior>
 						<Representation>None</Representation>
 						<ShowTitle>false</ShowTitle>
 						<ExtendedTooltip name="ГруппаШапкаПравоРасширеннаяПодсказка" id="313"/>
@@ -2374,21 +2321,18 @@ All inventory counts must be documented before utilizing the warerooms.</v8:cont
 							<UsualGroup name="ОсновноеЛево" id="68">
 								<Group>Vertical</Group>
 								<HorizontalSpacing>Double</HorizontalSpacing>
-								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ОсновноеЛевоExtendedTooltip" id="209"/>
 								<ChildItems>
 									<UsualGroup name="ГруппаТипСклада" id="127">
 										<Group>Vertical</Group>
-										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
 										<ExtendedTooltip name="ГруппаТипСкладаExtendedTooltip" id="210"/>
 										<ChildItems>
 											<UsualGroup name="ГруппаТипСкладаКолонки" id="114">
 												<Group>Vertical</Group>
-												<Behavior>Usual</Behavior>
 												<Representation>None</Representation>
 												<ShowTitle>false</ShowTitle>
 												<ExtendedTooltip name="ГруппаТипСкладаКолонкиExtendedTooltip" id="212"/>
@@ -2477,7 +2421,6 @@ All inventory counts must be documented before utilizing the warerooms.</v8:cont
 										<EnableContentChange>true</EnableContentChange>
 										<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 										<Group>Horizontal</Group>
-										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
 										<ExtendedTooltip name="ГруппаЦеховаяКладоваяРасширеннаяПодсказка" id="425">
@@ -2548,7 +2491,6 @@ All inventory counts must be documented before utilizing the warerooms.</v8:cont
 											</v8:item>
 										</ToolTip>
 										<Group>Vertical</Group>
-										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
 										<ExtendedTooltip name="ГруппаСборкиЗаказовИКурьерскойДоставкиРасширеннаяПодсказка" id="440"/>
@@ -2585,7 +2527,6 @@ All inventory counts must be documented before utilizing the warerooms.</v8:cont
 									</UsualGroup>
 									<UsualGroup name="ГруппаОтветХранение" id="387">
 										<Group>Vertical</Group>
-										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
 										<ExtendedTooltip name="ГруппаОтветХранениеРасширеннаяПодсказка" id="388"/>
@@ -2622,7 +2563,6 @@ All inventory counts must be documented before utilizing the warerooms.</v8:cont
 									</UsualGroup>
 									<UsualGroup name="ВидыЦенОтступ" id="128">
 										<Group>Vertical</Group>
-										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
 										<ExtendedTooltip name="ВидыЦенОтступExtendedTooltip" id="223"/>
@@ -2646,7 +2586,6 @@ All inventory counts must be documented before utilizing the warerooms.</v8:cont
 																	</v8:item>
 																</Title>
 																<Group>Vertical</Group>
-																<Behavior>Usual</Behavior>
 																<Representation>NormalSeparation</Representation>
 																<ExtendedTooltip name="ВидыЦенExtendedTooltip" id="224"/>
 																<ChildItems>
@@ -2662,7 +2601,6 @@ All inventory counts must be documented before utilizing the warerooms.</v8:cont
 																			</v8:item>
 																		</Title>
 																		<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-																		<Behavior>Usual</Behavior>
 																		<Representation>None</Representation>
 																		<ExtendedTooltip name="ИсточникИнформацииРасширеннаяПодсказка" id="418">
 																			<AutoMaxWidth>false</AutoMaxWidth>
@@ -2717,7 +2655,6 @@ All inventory counts must be documented before utilizing the warerooms.</v8:cont
 																			</v8:item>
 																		</Title>
 																		<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-																		<Behavior>Usual</Behavior>
 																		<Representation>None</Representation>
 																		<ExtendedTooltip name="ВидЦеныРасширеннаяПодсказка" id="420">
 																			<AutoMaxWidth>false</AutoMaxWidth>
@@ -2752,7 +2689,6 @@ All inventory counts must be documented before utilizing the warerooms.</v8:cont
 																	<UsualGroup name="ГруппаРозничныйВидЦены" id="141">
 																		<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 																		<Group>Vertical</Group>
-																		<Behavior>Usual</Behavior>
 																		<Representation>None</Representation>
 																		<United>false</United>
 																		<ShowTitle>false</ShowTitle>
@@ -2780,14 +2716,12 @@ All inventory counts must be documented before utilizing the warerooms.</v8:cont
 																					</v8:item>
 																				</ToolTip>
 																				<Group>Vertical</Group>
-																				<Behavior>Usual</Behavior>
 																				<Representation>None</Representation>
 																				<ShowTitle>false</ShowTitle>
 																				<ExtendedTooltip name="ГруппаРозничныйВидЦеныСкладРасширеннаяПодсказка" id="476"/>
 																				<ChildItems>
 																					<UsualGroup name="ГруппаРозничныйВидЦеныГориз" id="456">
 																						<Group>AlwaysHorizontal</Group>
-																						<Behavior>Usual</Behavior>
 																						<Representation>None</Representation>
 																						<ShowTitle>false</ShowTitle>
 																						<ExtendedTooltip name="ГруппаРозничныйВидЦеныГоризРасширеннаяПодсказка" id="457"/>
@@ -2849,7 +2783,6 @@ All inventory counts must be documented before utilizing the warerooms.</v8:cont
 																					<UsualGroup name="ГруппаИндивидуальныйВидЦены" id="442">
 																						<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 																						<Group>Vertical</Group>
-																						<Behavior>Usual</Behavior>
 																						<Representation>None</Representation>
 																						<United>false</United>
 																						<ShowTitle>false</ShowTitle>
@@ -2857,7 +2790,6 @@ All inventory counts must be documented before utilizing the warerooms.</v8:cont
 																						<ChildItems>
 																							<UsualGroup name="ГруппаИндивидуальныйВидЦеныГориз" id="458">
 																								<Group>AlwaysHorizontal</Group>
-																								<Behavior>Usual</Behavior>
 																								<Representation>None</Representation>
 																								<ShowTitle>false</ShowTitle>
 																								<ExtendedTooltip name="ГруппаИндивидуальныйВидЦеныГоризРасширеннаяПодсказка" id="459"/>
@@ -2918,7 +2850,6 @@ All inventory counts must be documented before utilizing the warerooms.</v8:cont
 																					</v8:item>
 																				</ToolTip>
 																				<Group>AlwaysHorizontal</Group>
-																				<Behavior>Usual</Behavior>
 																				<ShowTitle>false</ShowTitle>
 																				<ExtendedTooltip name="ГруппаРозничныйВидЦеныФорматМагазинаРасширеннаяПодсказка" id="478"/>
 																				<ChildItems>
@@ -2950,7 +2881,6 @@ All inventory counts must be documented before utilizing the warerooms.</v8:cont
 																							</v8:item>
 																						</ToolTip>
 																						<Group>AlwaysHorizontal</Group>
-																						<Behavior>Usual</Behavior>
 																						<Representation>None</Representation>
 																						<ExtendedTooltip name="ГруппаРозничныеЦеныИнформацияГоризРасширеннаяПодсказка" id="480"/>
 																						<ChildItems>
@@ -2967,7 +2897,6 @@ All inventory counts must be documented before utilizing the warerooms.</v8:cont
 																								</Title>
 																								<TitleTextColor>style:FormTextColor</TitleTextColor>
 																								<Group>Vertical</Group>
-																								<Behavior>Usual</Behavior>
 																								<Representation>None</Representation>
 																								<ShowTitle>false</ShowTitle>
 																								<ExtendedTooltip name="Группа1РасширеннаяПодсказка1" id="485"/>
@@ -3049,7 +2978,6 @@ All inventory counts must be documented before utilizing the warerooms.</v8:cont
 																</ToolTip>
 																<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 																<Group>Vertical</Group>
-																<Behavior>Usual</Behavior>
 																<Representation>None</Representation>
 																<United>false</United>
 																<ExtendedTooltip name="ОдинВидЦеныРасширеннаяПодсказка" id="356"/>
@@ -3116,7 +3044,6 @@ All inventory counts must be documented before utilizing the warerooms.</v8:cont
 							<UsualGroup name="ОсновноеПраво" id="69">
 								<Group>Vertical</Group>
 								<HorizontalSpacing>Double</HorizontalSpacing>
-								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ОсновноеПравоExtendedTooltip" id="244"/>
@@ -3124,7 +3051,6 @@ All inventory counts must be documented before utilizing the warerooms.</v8:cont
 									<UsualGroup name="ГруппаПодразделение" id="36">
 										<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 										<Group>Vertical</Group>
-										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
 										<ExtendedTooltip name="ГруппаПодразделениеExtendedTooltip" id="204">
@@ -3160,7 +3086,6 @@ All inventory counts must be documented before utilizing the warerooms.</v8:cont
 									</InputField>
 									<UsualGroup name="ГруппаМОЛОтступ" id="308">
 										<Group>Vertical</Group>
-										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ExtendedTooltip name="ГруппаМОЛОтступРасширеннаяПодсказка" id="309"/>
 										<ChildItems>
@@ -3176,7 +3101,6 @@ All inventory counts must be documented before utilizing the warerooms.</v8:cont
 													</v8:item>
 												</Title>
 												<Group>Vertical</Group>
-												<Behavior>Usual</Behavior>
 												<Representation>None</Representation>
 												<ExtendedTooltip name="ГруппаМОЛExtendedTooltip" id="245"/>
 												<ChildItems>
@@ -3233,7 +3157,6 @@ All inventory counts must be documented before utilizing the warerooms.</v8:cont
 											</v8:item>
 										</ToolTip>
 										<Group>Vertical</Group>
-										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ExtendedTooltip name="КонтрольОтступExtendedTooltip" id="232"/>
 										<ChildItems>
@@ -3249,14 +3172,12 @@ All inventory counts must be documented before utilizing the warerooms.</v8:cont
 													</v8:item>
 												</Title>
 												<Group>Vertical</Group>
-												<Behavior>Usual</Behavior>
 												<Representation>None</Representation>
 												<ChildItemsWidth>LeftWide</ChildItemsWidth>
 												<ExtendedTooltip name="КонтрольExtendedTooltip" id="233"/>
 												<ChildItems>
 													<UsualGroup name="ГруппаКонтролироватьКонтролироватьСвободныеОстатки" id="498">
 														<Group>Horizontal</Group>
-														<Behavior>Usual</Behavior>
 														<Representation>None</Representation>
 														<ChildItemsWidth>LeftWide</ChildItemsWidth>
 														<ShowTitle>false</ShowTitle>
@@ -3331,7 +3252,6 @@ All inventory counts must be documented before utilizing the warerooms.</v8:cont
 									</UsualGroup>
 									<UsualGroup name="АссортиментОтступ" id="394">
 										<Group>Vertical</Group>
-										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ExtendedTooltip name="АссортиментОтступРасширеннаяПодсказка" id="395"/>
 										<ChildItems>
@@ -3347,7 +3267,6 @@ All inventory counts must be documented before utilizing the warerooms.</v8:cont
 													</v8:item>
 												</Title>
 												<Group>Vertical</Group>
-												<Behavior>Usual</Behavior>
 												<Representation>None</Representation>
 												<ExtendedTooltip name="ГруппаАссортиментExtendedTooltip" id="220"/>
 												<ChildItems>
@@ -3374,7 +3293,6 @@ All inventory counts must be documented before utilizing the warerooms.</v8:cont
 													</LabelField>
 													<UsualGroup name="ГруппаФорматМагазина" id="331">
 														<Group>Horizontal</Group>
-														<Behavior>Usual</Behavior>
 														<Representation>None</Representation>
 														<ShowTitle>false</ShowTitle>
 														<ExtendedTooltip name="ГруппаФорматМагазинаРасширеннаяПодсказка" id="332"/>
@@ -3417,7 +3335,6 @@ All inventory counts must be documented before utilizing the warerooms.</v8:cont
 						<ChildItems>
 							<UsualGroup name="ОрдернаяСхемаЛево" id="304">
 								<Group>Vertical</Group>
-								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ОрдернаяСхемаЛевоРасширеннаяПодсказка" id="305"/>
@@ -3434,13 +3351,11 @@ All inventory counts must be documented before utilizing the warerooms.</v8:cont
 											</v8:item>
 										</Title>
 										<Group>Vertical</Group>
-										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ExtendedTooltip name="ИспользованиеОрдернойСхемыExtendedTooltip" id="249"/>
 										<ChildItems>
 											<UsualGroup name="ГруппаДатаНачалаОрдернойСхемыПриПоступлении" id="166">
 												<Group>Horizontal</Group>
-												<Behavior>Usual</Behavior>
 												<Representation>None</Representation>
 												<ShowTitle>false</ShowTitle>
 												<ExtendedTooltip name="ГруппаДатаНачалаОрдернойСхемыПриПоступленииExtendedTooltip" id="250"/>
@@ -3504,7 +3419,6 @@ All inventory counts must be documented before utilizing the warerooms.</v8:cont
 											</UsualGroup>
 											<UsualGroup name="ГруппаИспользоватьОрдернуюСхемуПриПоступлении" id="147">
 												<Group>Horizontal</Group>
-												<Behavior>Usual</Behavior>
 												<Representation>None</Representation>
 												<ShowTitle>false</ShowTitle>
 												<ExtendedTooltip name="ГруппаИспользоватьОрдернуюСхемуПриПоступленииExtendedTooltip" id="253"/>
@@ -3534,7 +3448,6 @@ All inventory counts must be documented before utilizing the warerooms.</v8:cont
 											</UsualGroup>
 											<UsualGroup name="ГруппаДатаНачалаОрдернойСхемыПриОтгрузке" id="167">
 												<Group>Horizontal</Group>
-												<Behavior>Usual</Behavior>
 												<Representation>None</Representation>
 												<ShowTitle>false</ShowTitle>
 												<ExtendedTooltip name="ГруппаДатаНачалаОрдернойСхемыПриОтгрузкеExtendedTooltip" id="256"/>
@@ -3598,7 +3511,6 @@ All inventory counts must be documented before utilizing the warerooms.</v8:cont
 											</UsualGroup>
 											<UsualGroup name="ГруппаИспользоватьОрдернуюСхемуПриОтгрузке" id="87">
 												<Group>Horizontal</Group>
-												<Behavior>Usual</Behavior>
 												<Representation>None</Representation>
 												<ShowTitle>false</ShowTitle>
 												<ExtendedTooltip name="ГруппаИспользоватьОрдернуюСхемуПриОтгрузкеExtendedTooltip" id="259"/>
@@ -3610,7 +3522,6 @@ All inventory counts must be documented before utilizing the warerooms.</v8:cont
 													</LabelDecoration>
 													<UsualGroup name="ГруппаНачинатьОтгрузкуПослеФормированияЗаданияНаПеревозку" id="102">
 														<Group>Vertical</Group>
-														<Behavior>Usual</Behavior>
 														<Representation>None</Representation>
 														<ShowTitle>false</ShowTitle>
 														<ExtendedTooltip name="ГруппаНачинатьОтгрузкуПослеФормированияЗаданияНаПеревозкуExtendedTooltip" id="261"/>
@@ -3646,7 +3557,6 @@ All inventory counts must be documented before utilizing the warerooms.</v8:cont
 															</CheckBoxField>
 															<UsualGroup name="ГруппаДоставка" id="148">
 																<Group>Vertical</Group>
-																<Behavior>Usual</Behavior>
 																<Representation>None</Representation>
 																<ShowTitle>false</ShowTitle>
 																<ExtendedTooltip name="ГруппаДоставкаExtendedTooltip" id="264"/>
@@ -3735,7 +3645,6 @@ All inventory counts must be documented before utilizing the warerooms.</v8:cont
 											</UsualGroup>
 											<UsualGroup name="ГруппаДатаНачалаОрдернойСхемыПриОтраженииИзлишковНедостач" id="168">
 												<Group>Horizontal</Group>
-												<Behavior>Usual</Behavior>
 												<Representation>None</Representation>
 												<ShowTitle>false</ShowTitle>
 												<ExtendedTooltip name="ГруппаДатаНачалаОрдернойСхемыПриОтраженииИзлишковНедостачExtendedTooltip" id="271"/>
@@ -3800,14 +3709,12 @@ All inventory counts must be documented before utilizing the warerooms.</v8:cont
 											</UsualGroup>
 											<UsualGroup name="ГруппаИспользоватьСтатусыПересчетовТоваров" id="399">
 												<Group>Horizontal</Group>
-												<Behavior>Usual</Behavior>
 												<Representation>None</Representation>
 												<ShowTitle>false</ShowTitle>
 												<ExtendedTooltip name="ГруппаИспользоватьСтатусыПересчетовТоваровРасширеннаяПодсказка" id="400"/>
 												<ChildItems>
 													<UsualGroup name="ГруппаИспользоватьСтатусыПересчетовТоваровОтступ" id="401">
 														<Group>Vertical</Group>
-														<Behavior>Usual</Behavior>
 														<Representation>None</Representation>
 														<ShowTitle>false</ShowTitle>
 														<ExtendedTooltip name="ГруппаИспользоватьСтатусыПересчетовТоваровОтступРасширеннаяПодсказка" id="402"/>
@@ -3849,7 +3756,6 @@ All inventory counts must be documented before utilizing the warerooms.</v8:cont
 									</UsualGroup>
 									<UsualGroup name="ГруппаКонтрольОперативныхОстатков" id="323">
 										<Group>Vertical</Group>
-										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
 										<ExtendedTooltip name="ГруппаКонтрольОперативныхОстатковРасширеннаяПодсказка" id="324"/>
@@ -3866,7 +3772,6 @@ All inventory counts must be documented before utilizing the warerooms.</v8:cont
 							</UsualGroup>
 							<UsualGroup name="ОрдернаяСхемаПраво" id="306">
 								<Group>Vertical</Group>
-								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ОрдернаяСхемаПравоРасширеннаяПодсказка" id="307"/>
@@ -3884,13 +3789,11 @@ All inventory counts must be documented before utilizing the warerooms.</v8:cont
 										</Title>
 										<Height>4</Height>
 										<Group>Vertical</Group>
-										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ExtendedTooltip name="ДелениеСкладаExtendedTooltip" id="275"/>
 										<ChildItems>
 											<UsualGroup name="ГруппаИспользоватьСкладскиеПомещения" id="143">
 												<Group>Vertical</Group>
-												<Behavior>Usual</Behavior>
 												<Representation>None</Representation>
 												<ShowTitle>false</ShowTitle>
 												<ExtendedTooltip name="ГруппаИспользоватьСкладскиеПомещенияExtendedTooltip" id="276"/>
@@ -3898,7 +3801,6 @@ All inventory counts must be documented before utilizing the warerooms.</v8:cont
 													<UsualGroup name="ГруппаИспользоватьСкладскиеПомещенияФлагДата" id="175">
 														<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 														<Group>Horizontal</Group>
-														<Behavior>Usual</Behavior>
 														<Representation>None</Representation>
 														<ShowTitle>false</ShowTitle>
 														<ExtendedTooltip name="ГруппаИспользоватьСкладскиеПомещенияФлагДатаExtendedTooltip" id="277">
@@ -4004,7 +3906,6 @@ All inventory counts must be documented before utilizing the warerooms.</v8:cont
 											<UsualGroup name="ГруппаНастройкаАдресногоХранения" id="415">
 												<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 												<Group>Horizontal</Group>
-												<Behavior>Usual</Behavior>
 												<Representation>None</Representation>
 												<ShowTitle>false</ShowTitle>
 												<ExtendedTooltip name="ГруппаНастройкаАдресногоХраненияРасширеннаяПодсказка" id="416"/>
@@ -4116,7 +4017,6 @@ All inventory counts must be documented before utilizing the warerooms.</v8:cont
 											</LabelDecoration>
 											<UsualGroup name="ГруппаДополнительныеНастройкиАдресныхСкладов" id="144">
 												<Group>Vertical</Group>
-												<Behavior>Usual</Behavior>
 												<Representation>None</Representation>
 												<ShowTitle>false</ShowTitle>
 												<ExtendedTooltip name="ГруппаДополнительныеНастройкиАдресныхСкладовExtendedTooltip" id="294"/>

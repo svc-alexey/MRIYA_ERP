@@ -28,7 +28,6 @@
 				</v8:item>
 			</Title>
 			<Group>Horizontal</Group>
-			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="БыстрыеОтборыExtendedTooltip" id="49"/>
@@ -169,7 +168,6 @@
 					<v8:content>User settings group</v8:content>
 				</v8:item>
 			</Title>
-			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаПользовательскихНастроекРасширеннаяПодсказка" id="108"/>
@@ -606,7 +604,6 @@
 					</v8:item>
 				</Title>
 				<Group>Horizontal</Group>
-				<Behavior>Usual</Behavior>
 				<Representation>None</Representation>
 				<ShowTitle>false</ShowTitle>
 				<ExtendedTooltip name="БыстрыеОтборыExtendedTooltip" id="49"/>
@@ -747,7 +744,6 @@
 						<v8:content>User settings group</v8:content>
 					</v8:item>
 				</Title>
-				<Behavior>Usual</Behavior>
 				<Representation>None</Representation>
 				<ShowTitle>false</ShowTitle>
 				<ExtendedTooltip name="ГруппаПользовательскихНастроекРасширеннаяПодсказка" id="108"/>
