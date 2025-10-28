@@ -74,6 +74,90 @@
 								</Button>
 							</ChildItems>
 						</UsualGroup>
+						<UsualGroup name="ГруппаПараметрыЗамен" id="289">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Параметры замен</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Параметры замен</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ExtendedTooltip name="ГруппаПараметрыЗаменРасширеннаяПодсказка" id="290"/>
+							<ChildItems>
+								<InputField name="ДатаДействияС" id="291">
+									<DataPath>ДатаДействияС</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Дата действия с</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>Left</TitleLocation>
+									<ContextMenu name="ДатаДействияСКонтекстноеМеню" id="292"/>
+									<ExtendedTooltip name="ДатаДействияСРасширеннаяПодсказка" id="293"/>
+								</InputField>
+								<InputField name="ДатаДействияПО" id="294">
+									<DataPath>ДатаДействияПО</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Дата действия по</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>Left</TitleLocation>
+									<ContextMenu name="ДатаДействияПОКонтекстноеМеню" id="295"/>
+									<ExtendedTooltip name="ДатаДействияПОРасширеннаяПодсказка" id="296"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаПодразделения" id="297">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Подразделения (если не указаны - для всех)</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Подразделения</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ExtendedTooltip name="ГруппаПодразделенияРасширеннаяПодсказка" id="298"/>
+							<ChildItems>
+								<Table name="Подразделения" id="299">
+									<Representation>List</Representation>
+									<AutoInsertNewRow>true</AutoInsertNewRow>
+									<EnableStartDrag>true</EnableStartDrag>
+									<EnableDrag>true</EnableDrag>
+									<DataPath>Подразделения</DataPath>
+									<Height>3</Height>
+									<RowFilter xsi:nil="true"/>
+									<ContextMenu name="ПодразделенияКонтекстноеМеню" id="300"/>
+									<AutoCommandBar name="ПодразделенияКоманднаяПанель" id="301"/>
+									<ExtendedTooltip name="ПодразделенияРасширеннаяПодсказка" id="302"/>
+									<ChildItems>
+										<InputField name="ПодразделенияПодразделение" id="303">
+											<DataPath>Подразделения.Подразделение</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="ПодразделенияПодразделениеКонтекстноеМеню" id="304"/>
+											<ExtendedTooltip name="ПодразделенияПодразделениеРасширеннаяПодсказка" id="305"/>
+										</InputField>
+										<InputField name="ПодразделенияВключаяПодчиненные" id="306">
+											<DataPath>Подразделения.ВключаяПодчиненные</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="ПодразделенияВключаяПодчиненныеКонтекстноеМеню" id="307"/>
+											<ExtendedTooltip name="ПодразделенияВключаяПодчиненныеРасширеннаяПодсказка" id="308"/>
+										</InputField>
+									</ChildItems>
+								</Table>
+							</ChildItems>
+						</UsualGroup>
 						<InputField name="мДок" id="206">
 							<ContextMenu name="мДокКонтекстноеМеню" id="207"/>
 							<ExtendedTooltip name="мДокРасширеннаяПодсказка" id="208"/>
@@ -159,6 +243,13 @@
 										<ExtendedTooltip name="ДанныеУправлениеПоискомРасширеннаяПодсказка" id="270"/>
 									</SearchControlAddition>
 									<ChildItems>
+										<InputField name="ДанныеСсылкаНаДокумент" id="309">
+											<DataPath>Данные.СсылкаНаДокумент</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ReadOnly>true</ReadOnly>
+											<ContextMenu name="ДанныеСсылкаНаДокументКонтекстноеМеню" id="310"/>
+											<ExtendedTooltip name="ДанныеСсылкаНаДокументРасширеннаяПодсказка" id="311"/>
+										</InputField>
 										<InputField name="ДанныеМатериал" id="271">
 											<DataPath>Данные.Материал</DataPath>
 											<EditMode>EnterOnInput</EditMode>
@@ -256,6 +347,69 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
+		<Attribute name="ДатаДействияС" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата действия с</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ДатаДействияПО" id="14">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата действия по</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Подразделения" id="15">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подразделения</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Подразделение" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Подразделение</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СтруктураПредприятия</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ВключаяПодчиненные" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Включая подчиненные</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
 		<Attribute name="ТабличныйДокумент" id="16">
 			<Title>
 				<v8:item>
@@ -278,6 +432,17 @@
 				<v8:Type>v8:ValueTable</v8:Type>
 			</Type>
 			<Columns>
+				<Column name="СсылкаНаДокумент" id="13">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Документ</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:DocumentRef.питРегистрацияЗамен</v8:Type>
+					</Type>
+				</Column>
 				<Column name="Материал" id="2">
 					<Title>
 						<v8:item>
@@ -595,6 +760,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>СоздатьНоменклатуру</Action>
+		</Command>
+		<Command name="ПодобратьПодразделения" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подобрать</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подобрать подразделения</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПодобратьПодразделения</Action>
 		</Command>
 	</Commands>
 </Form>
